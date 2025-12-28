@@ -369,11 +369,11 @@ export default function Gallery() {
                 {selected.location.full_address}
               </p>
               <p className="text-sm leading-relaxed">
-                Desa <strong>{selected.location.desa}</strong>, Kecamatan{" "}
-                <strong>{selected.location.kecamatan}</strong>
+                Desa {selected.location.desa}, Kecamatan{" "}
+                {selected.location.kecamatan}
                 <br />
-                Kabupaten <strong>{selected.location.kabupaten}</strong>, Provinsi{" "}
-                <strong>{selected.location.provinsi}</strong>
+                {selected.location.kabupaten}, Provinsi{" "}
+                {selected.location.provinsi}
                 <br />
                 Kode Pos {selected.location.kode_pos},{" "}
                 {selected.location.negara}
