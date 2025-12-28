@@ -107,7 +107,7 @@ export default function Testimonials() {
                         whileHover={{ scale: 1.08 }}
                         src={item.avatar}
                         alt={item.name}
-                        className="w-24 h-24 rounded-full object-cover mb-4 border-4 border-transparent bg-gradient-to-tr from-purple-500 to-pink-500 p-1 mx-auto"
+                        className="w-24 h-24 rounded-full object-cover mb-4 border-4 border-transparent bg-gradient-to-tr from-orange-500 to-pink-500 p-1 mx-auto"
                       />
 
                       {/* ⭐ Rating */}
@@ -158,7 +158,7 @@ export default function Testimonials() {
                   }}
                   className={`h-3 rounded-full transition-all ${
                     index === currentGroupIndex
-                      ? "bg-purple-400 w-8 shadow-md shadow-purple-500/50"
+                      ? "bg-orange-400 w-8 shadow-md shadow-orange-500/50"
                       : "bg-white/40 w-3"
                   }`}
                 />

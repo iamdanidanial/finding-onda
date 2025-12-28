@@ -19,7 +19,7 @@ export default function Button({
   const baseStyles = 'px-8 py-3 rounded-full font-semibold transition-all duration-300';
 
   const variants = {
-    primary: 'bg-gradient-to-r from-amber-500 to-purple-600 text-white hover:shadow-lg hover:shadow-purple-500/50',
+    primary: 'bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:shadow-lg hover:shadow-orange-500/50',
     secondary: 'bg-slate-800 text-white hover:bg-slate-700',
     outline: 'border-2 border-white text-white hover:bg-white hover:text-slate-900'
   };

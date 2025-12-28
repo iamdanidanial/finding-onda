@@ -9,7 +9,7 @@ export default function DestinationDetail() {
   if (!data) return <div className="p-10 text-center">Tour not found.</div>;
 
   return (
-    <div className="bg-purple-50 min-h-screen py-10">
+    <div className="bg-orange-50 min-h-screen py-10">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-10">
         
         {/* LEFT SIDE — MAIN CONTENT */}
@@ -31,12 +31,12 @@ export default function DestinationDetail() {
 
             <div className="flex items-center gap-4 text-slate-700 text-sm mb-4">
               <div className="flex items-center gap-1">
-                <Clock className="w-5 h-5 text-purple-600" />
+                <Clock className="w-5 h-5 text-orange-600" />
                 {data.duration}
               </div>
 
               <div className="flex items-center gap-1">
-                <MapPin className="w-5 h-5 text-purple-600" />
+                <MapPin className="w-5 h-5 text-orange-600" />
                 {data.location}
               </div>
 
@@ -113,8 +113,8 @@ export default function DestinationDetail() {
 
         {/* RIGHT SIDE — BOOKING CARD */}
         <div className="lg:col-span-1">
-          <div className="sticky top-10 bg-white p-6 rounded-3xl shadow-xl border border-purple-200">
-            <h3 className="text-xl font-bold text-center mb-2 text-purple-700">
+          <div className="sticky top-10 bg-white p-6 rounded-3xl shadow-xl border border-orange-200">
+            <h3 className="text-xl font-bold text-center mb-2 text-orange-700">
               Tempah Sekarang
             </h3>
 
@@ -150,7 +150,7 @@ export default function DestinationDetail() {
 
               <button
                 type="button"
-                className="w-full py-3 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl"
+                className="w-full py-3 bg-orange-600 hover:bg-orange-700 text-white font-bold rounded-xl"
               >
                 Tempah Sekarang
               </button>

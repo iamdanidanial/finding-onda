@@ -19,7 +19,7 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <div className="flex items-center gap-3 mb-4">
-              <Car className="w-9 h-9 text-purple-400 drop-shadow-md" />
+              <Car className="w-9 h-9 text-orange-400 drop-shadow-md" />
               <span className="text-3xl font-bold tracking-wide text-white">Bali With Me</span>
             </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
-                    className="text-slate-400 hover:text-purple-400 transition-colors duration-200"
+                    className="text-slate-400 hover:text-orange-400 transition-colors duration-200"
                   >
                     {item}
                   </a>
@@ -61,15 +61,15 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4 text-white">Contact Info</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-slate-400">
-                <Phone className="w-5 h-5 text-purple-400" />
+                <Phone className="w-5 h-5 text-orange-400" />
                 <span>+62 812-3456-7890</span>
               </li>
               <li className="flex items-center gap-3 text-slate-400">
-                <Mail className="w-5 h-5 text-purple-400" />
+                <Mail className="w-5 h-5 text-orange-400" />
                 <span>info@gmail.com</span>
               </li>
               <li className="flex items-start gap-3 text-slate-400">
-                <MapPin className="w-5 h-5 text-purple-400 mt-1" />
+                <MapPin className="w-5 h-5 text-orange-400 mt-1" />
                 <span>Bali, Indonesia</span>
               </li>
             </ul>
@@ -93,7 +93,7 @@ export default function Footer() {
                   key={index}
                   href={href}
                   whileHover={{ scale: 1.15 }}
-                  className="w-11 h-11 bg-slate-800/60 hover:bg-purple-500/80 transition-colors duration-300 rounded-full flex items-center justify-center backdrop-blur-md border border-white/10 shadow-lg"
+                  className="w-11 h-11 bg-slate-800/60 hover:bg-orange-500/80 transition-colors duration-300 rounded-full flex items-center justify-center backdrop-blur-md border border-white/10 shadow-lg"
                 >
                   <Icon className="w-5 h-5 text-white" />
                 </motion.a>

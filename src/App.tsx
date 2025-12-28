@@ -39,12 +39,12 @@ function App() {
         <Hero />
         <About />
         <Features />
-        <Destinations />
+        {/* <Destinations /> */}
         <Gallery />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <InstagramSection />
-        <FAQ />
-        <Contact />
+        {/* <FAQ />
+        <Contact /> */}
       </main>
       <Footer />
     </div>

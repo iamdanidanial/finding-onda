@@ -71,7 +71,7 @@ export default function Contact() {
                 whileHover={{ x: 10 }}
                 className="flex items-center gap-4 p-5 rounded-2xl bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all group"
               >
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
                   <info.icon className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -86,7 +86,7 @@ export default function Contact() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="p-6 rounded-2xl bg-gradient-to-br from-amber-500 to-purple-600 text-white shadow-xl"
+              className="p-6 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white shadow-xl"
             >
               <h4 className="text-2xl font-bold mb-2">Available 24 / 7</h4>
               <p className="text-white/90">

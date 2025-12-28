@@ -31,14 +31,14 @@ export default function FAQ() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-purple-600 dark:text-purple-400 font-semibold tracking-wide text-sm"
+            className="text-orange-600 dark:text-orange-400 font-semibold tracking-wide text-sm"
           >
             ❓ Frequently Asked Questions
           </motion.span>
 
           <h1 className="text-5xl font-bold leading-tight mt-3 text-slate-900 dark:text-white">
             Jawaban untuk Semua{" "}
-            <span className="bg-gradient-to-r from-purple-600 to-amber-500 text-transparent bg-clip-text">
+            <span className="bg-gradient-to-r from-orange-600 to-amber-500 text-transparent bg-clip-text">
               Pertanyaan Anda
             </span>
           </h1>
@@ -112,7 +112,7 @@ export default function FAQ() {
       </div>
 
       {/* Optional gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-white via-purple-50/20 to-white pointer-events-none dark:from-slate-900 dark:via-slate-800/20 dark:to-slate-900 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white via-orange-50/20 to-white pointer-events-none dark:from-slate-900 dark:via-slate-800/20 dark:to-slate-900 z-0" />
 
     </section>
   );

@@ -5,14 +5,12 @@ import {
   X,
   Sun,
   Moon,
-  Car,
   Phone,
-  Mail,
   MapPin,
-  MessageCircle,
   Home,
   Wrench,
   Info,
+  Glasses,
   Wallet
 } from 'lucide-react';
 
@@ -69,9 +67,9 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => scrollToSection('#home')}
           >
-            <Car
+            <Glasses
               className={`w-8 h-8 transition-colors ${
-                isScrolled ? 'text-purple-600' : 'text-white'
+                isScrolled ? 'text-orange-600' : 'text-white'
               }`}
             />
             <span
@@ -81,7 +79,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
                   : 'text-white'
               }`}
             >
-              BaliWithMe
+              Finding Onda
             </span>
           </motion.div>
 
@@ -98,8 +96,8 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
                 whileHover={{ scale: 1.1 }}
                 className={`flex items-center gap-2 font-medium transition-colors ${
                   isScrolled
-                    ? 'text-slate-700 hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400'
-                    : 'text-white hover:text-purple-300'
+                    ? 'text-slate-700 hover:text-orange-600 dark:text-slate-300 dark:hover:text-orange-400'
+                    : 'text-white hover:text-orange-300'
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -119,7 +117,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
               }`}
             >
               {darkMode ? (
-                <Sun className="w-5 h-5 text-purple-400" />
+                <Sun className="w-5 h-5 text-orange-400" />
               ) : (
                 <Moon
                   className={`w-5 h-5 ${
@@ -140,7 +138,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
               }`}
             >
               {darkMode ? (
-                <Sun className="w-5 h-5 text-purple-400" />
+                <Sun className="w-5 h-5 text-orange-400" />
               ) : (
                 <Moon className={`w-5 h-5 ${isScrolled ? 'text-slate-700' : 'text-white'}`} />
               )}
@@ -166,7 +164,7 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
               <button
                 key={label}
                 onClick={() => scrollToSection(href)}
-                className="flex items-center gap-3 w-full py-3 text-slate-700 dark:text-slate-300 hover:text-purple-600 dark:hover:text-purple-400 font-medium transition-colors"
+                className="flex items-center gap-3 w-full py-3 text-slate-700 dark:text-slate-300 hover:text-orange-600 dark:hover:text-orange-400 font-medium transition-colors"
               >
                 <Icon className="w-5 h-5" />
                 {label}

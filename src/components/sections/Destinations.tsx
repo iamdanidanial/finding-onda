@@ -56,7 +56,7 @@ useEffect(() => {
                 </div>
 
                 <div className="absolute bottom-0 p-6 text-white">
-                  <div className="flex items-center gap-2 text-purple-400 text-sm mb-2">
+                  <div className="flex items-center gap-2 text-orange-400 text-sm mb-2">
                     <Clock className="w-4 h-4" />
                     <span className="font-medium">{destination.duration}</span>
                   </div>
@@ -68,7 +68,7 @@ useEffect(() => {
                   </p>
 
                   <div className="flex items-center justify-between mt-4">
-                    <span className="text-purple-400 font-bold">
+                    <span className="text-orange-400 font-bold">
                       From {destination.price}
                     </span>
 
@@ -113,10 +113,10 @@ useEffect(() => {
                 {/* DETAILS */}
                 <div className="flex flex-wrap items-center gap-6 text-slate-700 dark:text-slate-200 mb-6">
                   <span className="flex items-center gap-2">
-                    <Clock className="w-5 h-5 text-purple-500" /> {selected.duration}
+                    <Clock className="w-5 h-5 text-orange-500" /> {selected.duration}
                   </span>
                   <span className="flex items-center gap-2">
-                    <MapPin className="w-5 h-5 text-purple-500" /> {selected.location}
+                    <MapPin className="w-5 h-5 text-orange-500" /> {selected.location}
                   </span>
                   <span className="flex items-center gap-2">
                     <Star className="w-5 h-5 text-yellow-500" /> {selected.rating}
@@ -134,9 +134,9 @@ useEffect(() => {
                   {selected.highlights.map((h: string, i: number) => (
                     <div
                       key={i}
-                      className="p-3 bg-purple-50 dark:bg-slate-700 rounded-xl border border-purple-200 flex items-center gap-2"
+                      className="p-3 bg-orange-50 dark:bg-slate-700 rounded-xl border border-orange-200 flex items-center gap-2"
                     >
-                      <CheckCircle className="w-5 h-5 text-purple-500" />
+                      <CheckCircle className="w-5 h-5 text-orange-500" />
                       <span>{h}</span>
                     </div>
                   ))}
@@ -174,7 +174,7 @@ useEffect(() => {
 
                 {/* CLOSE BUTTON */}
                 <button
-                  className="w-full py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-xl font-bold"
+                  className="w-full py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-xl font-bold"
                   onClick={() => setSelected(null)}
                 >
                   Close
