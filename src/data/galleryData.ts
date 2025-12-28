@@ -4,7 +4,7 @@ export const galleryData = [
     "id": 1,
     "gallery": {
       "title": "Ciherang Village Blok B2 (1)",
-      "photo": "../../assets/20251206_161243.jpg"
+      "photo": "/assets/20251206_161243.jpg"
     },
     "location": {
       "latitude": -6.760104199722222,
@@ -43,7 +43,7 @@ export const galleryData = [
     "id": 2,
     "gallery": {
       "title": "Ciherang Village Blok B2 (2)",
-      "photo": "../../assets/20251206_161259.jpg"
+      "photo": "/assets/20251206_161259.jpg"
     },
     "location": {
       "latitude": -6.7601851,
@@ -82,7 +82,7 @@ export const galleryData = [
     "id": 3,
     "gallery": {
       "title": "Ciherang Village Blok B2 (3)",
-      "photo": "../../assets/20251206_161307.jpg"
+      "photo": "/assets/20251206_161307.jpg"
     },
     "location": {
       "latitude": -6.7601851,
@@ -121,7 +121,7 @@ export const galleryData = [
     "id": 5,
     "gallery": {
       "title": "SPBU 34.16108",
-      "photo": "../../assets/20251206_181335.jpg"
+      "photo": "/assets/20251206_181335.jpg"
     },
     "location": {
       "latitude": -6.613133299999999,
@@ -160,7 +160,7 @@ export const galleryData = [
     "id": 4,
     "gallery": {
       "title": "Masjid Istiqlal",
-      "photo": "../../assets/20251207_143741.jpg"
+      "photo": "/assets/20251207_143741.jpg"
     },
     "location": {
       "latitude": -6.1703006,
@@ -199,7 +199,7 @@ export const galleryData = [
     "id": 6,
     "gallery": {
       "title": "Stasiun Juanda (1)",
-      "photo": "../../assets/20251207_145100.jpg"
+      "photo": "/assets/20251207_145100.jpg"
     },
     "location": {
       "latitude": -6.167134299722223,
@@ -238,7 +238,7 @@ export const galleryData = [
     "id": 7,
     "gallery": {
       "title": "Stasiun Gondangdia",
-      "photo": "../../assets/20251207_150433.jpg"
+      "photo": "/assets/20251207_150433.jpg"
     },
     "location": {
       "latitude": -6.185670299722222,
@@ -277,7 +277,7 @@ export const galleryData = [
     "id": 8,
     "gallery": {
       "title": "Stasiun Manggarai (1)",
-      "photo": "../../assets/20251207_152748.jpg"
+      "photo": "/assets/20251207_152748.jpg"
     },
     "location": {
       "latitude": -6.210242499722223,
@@ -316,7 +316,7 @@ export const galleryData = [
     "id": 9,
     "gallery": {
       "title": "Stasiun Manggarai (2)",
-      "photo": "../../assets/20251207_152905.jpg"
+      "photo": "/assets/20251207_152905.jpg"
     },
     "location": {
       "latitude": -6.210462999722222,
@@ -355,7 +355,7 @@ export const galleryData = [
     "id": 10,
     "gallery": {
       "title": "Stasiun Tebet (1)",
-      "photo": "../../assets/20251207_154327.jpg"
+      "photo": "/assets/20251207_154327.jpg"
     },
     "location": {
       "latitude": -6.226413299722222,
@@ -394,7 +394,7 @@ export const galleryData = [
     "id": 11,
     "gallery": {
       "title": "Stasiun Tebet (2)",
-      "photo": "../../assets/20251207_154403.jpg"
+      "photo": "/assets/20251207_154403.jpg"
     },
     "location": {
       "latitude": -6.2265433,
@@ -433,7 +433,7 @@ export const galleryData = [
     "id": 12,
     "gallery": {
       "title": "Stasiun Cawang",
-      "photo": "../../assets/20251207_155434.jpg"
+      "photo": "/assets/20251207_155434.jpg"
     },
     "location": {
       "latitude": -6.2428286,
@@ -472,7 +472,7 @@ export const galleryData = [
     "id": 14,
     "gallery": {
       "title": "Stasiun Duren Kalibata",
-      "photo": "../../assets/20251207_160224.jpg"
+      "photo": "/assets/20251207_160224.jpg"
     },
     "location": {
       "latitude": -6.2421134,
@@ -511,7 +511,7 @@ export const galleryData = [
     "id": 15,
     "gallery": {
       "title": "Stasiun Pasar Minggu",
-      "photo": "../../assets/20251207_162308.jpg"
+      "photo": "/assets/20251207_162308.jpg"
     },
     "location": {
       "latitude": -6.2840663999999995,
@@ -550,7 +550,7 @@ export const galleryData = [
     "id": 13,
     "gallery": {
       "title": "Stasiun Tanjung Barat",
-      "photo": "../../assets/20251207_165125.jpg"
+      "photo": "/assets/20251207_165125.jpg"
     },
     "location": {
       "latitude": -6.3091862999999995,
@@ -589,7 +589,7 @@ export const galleryData = [
     "id": 16,
     "gallery": {
       "title": "Stasiun Lenteng Agung (1)",
-      "photo": "../../assets/20251207_170105.jpg"
+      "photo": "/assets/20251207_170105.jpg"
     },
     "location": {
       "latitude": -6.33103,
@@ -628,7 +628,7 @@ export const galleryData = [
     "id": 19,
     "gallery": {
       "title": "Stasiun Lenteng Agung (2)",
-      "photo": "../../assets/20251207_170110.jpg"
+      "photo": "/assets/20251207_170110.jpg"
     },
     "location": {
       "latitude": -6.331008299722222,
@@ -667,7 +667,7 @@ export const galleryData = [
     "id": 18,
     "gallery": {
       "title": "Stasiun Universitas Pancasila (1)",
-      "photo": "../../assets/20251207_171411.jpg"
+      "photo": "/assets/20251207_171411.jpg"
     },
     "location": {
       "latitude": -6.3388583,
@@ -706,7 +706,7 @@ export const galleryData = [
     "id": 17,
     "gallery": {
       "title": "Stasiun Universitas Pancasila (2)",
-      "photo": "../../assets/20251207_171420.jpg"
+      "photo": "/assets/20251207_171420.jpg"
     },
     "location": {
       "latitude": -6.338823299722222,
@@ -745,7 +745,7 @@ export const galleryData = [
     "id": 20,
     "gallery": {
       "title": "Stasiun Universitas Pancasila (3)",
-      "photo": "../../assets/20251207_171808.jpg"
+      "photo": "/assets/20251207_171808.jpg"
     },
     "location": {
       "latitude": -6.339037199722222,
@@ -784,7 +784,7 @@ export const galleryData = [
     "id": 25,
     "gallery": {
       "title": "Stasiun Universitas Indonesia",
-      "photo": "../../assets/20251207_172457.jpg"
+      "photo": "/assets/20251207_172457.jpg"
     },
     "location": {
       "latitude": -6.360885399722222,
@@ -823,7 +823,7 @@ export const galleryData = [
     "id": 21,
     "gallery": {
       "title": "Stasiun Pondok Cina",
-      "photo": "../../assets/20251207_173009.jpg"
+      "photo": "/assets/20251207_173009.jpg"
     },
     "location": {
       "latitude": -6.368953599999999,
@@ -862,7 +862,7 @@ export const galleryData = [
     "id": 24,
     "gallery": {
       "title": "Stasiun Pondok Cina",
-      "photo": "../../assets/20251207_173032.jpg"
+      "photo": "/assets/20251207_173032.jpg"
     },
     "location": {
       "latitude": -6.3693615999999995,
@@ -901,7 +901,7 @@ export const galleryData = [
     "id": 22,
     "gallery": {
       "title": "Stasiun Depok",
-      "photo": "../../assets/20251207_173812.jpg"
+      "photo": "/assets/20251207_173812.jpg"
     },
     "location": {
       "latitude": -6.3914384,
@@ -940,7 +940,7 @@ export const galleryData = [
     "id": 26,
     "gallery": {
       "title": "Stasiun Citayam (1)",
-      "photo": "../../assets/20251207_181006.jpg"
+      "photo": "/assets/20251207_181006.jpg"
     },
     "location": {
       "latitude": -6.4479831,
@@ -979,7 +979,7 @@ export const galleryData = [
     "id": 29,
     "gallery": {
       "title": "Stasiun Citayam (2)",
-      "photo": "../../assets/20251207_181640.jpg"
+      "photo": "/assets/20251207_181640.jpg"
     },
     "location": {
       "latitude": -6.4480038,
@@ -1018,7 +1018,7 @@ export const galleryData = [
     "id": 27,
     "gallery": {
       "title": "Stasiun Juanda (2)",
-      "photo": "../../assets/20251207_191848.jpg"
+      "photo": "/assets/20251207_191848.jpg"
     },
     "location": {
       "latitude": -6.166781499722222,
@@ -1057,7 +1057,7 @@ export const galleryData = [
     "id": 28,
     "gallery": {
       "title": "Stasiun Bogor (1)",
-      "photo": "../../assets/20251208_171246.jpg"
+      "photo": "/assets/20251208_171246.jpg"
     },
     "location": {
       "latitude": -6.595623299722222,
@@ -1096,7 +1096,7 @@ export const galleryData = [
     "id": 30,
     "gallery": {
       "title": "Stasiun Bogor (2)",
-      "photo": "../../assets/20251208_171254.jpg"
+      "photo": "/assets/20251208_171254.jpg"
     },
     "location": {
       "latitude": -6.595623299722222,
@@ -1135,7 +1135,7 @@ export const galleryData = [
     "id": 31,
     "gallery": {
       "title": "Stasiun Bogor (3)",
-      "photo": "../../assets/20251208_171302.jpg"
+      "photo": "/assets/20251208_171302.jpg"
     },
     "location": {
       "latitude": -6.595623299722222,
@@ -1174,7 +1174,7 @@ export const galleryData = [
     "id": 32,
     "gallery": {
       "title": "Stasiun Bojong Gede",
-      "photo": "../../assets/20251208_174202.jpg"
+      "photo": "/assets/20251208_174202.jpg"
     },
     "location": {
       "latitude": -6.493345099722222,
@@ -1213,7 +1213,7 @@ export const galleryData = [
     "id": 35,
     "gallery": {
       "title": "Stasiun Sawah Besar",
-      "photo": "../../assets/20251208_193416.jpg"
+      "photo": "/assets/20251208_193416.jpg"
     },
     "location": {
       "latitude": -6.160406599722222,
@@ -1252,7 +1252,7 @@ export const galleryData = [
     "id": 33,
     "gallery": {
       "title": "Stasiun Mangga Besar",
-      "photo": "../../assets/20251208_194509.jpg"
+      "photo": "/assets/20251208_194509.jpg"
     },
     "location": {
       "latitude": -6.149878199722223,
@@ -1291,7 +1291,7 @@ export const galleryData = [
     "id": 34,
     "gallery": {
       "title": "Stasiun Jayakarta",
-      "photo": "../../assets/20251208_195722.jpg"
+      "photo": "/assets/20251208_195722.jpg"
     },
     "location": {
       "latitude": -6.1418444,
@@ -1330,7 +1330,7 @@ export const galleryData = [
     "id": 37,
     "gallery": {
       "title": "Stasiun Jakarta Kota (1)",
-      "photo": "../../assets/20251208_200845.jpg"
+      "photo": "/assets/20251208_200845.jpg"
     },
     "location": {
       "latitude": -6.1377933,
@@ -1369,7 +1369,7 @@ export const galleryData = [
     "id": 36,
     "gallery": {
       "title": "Stasiun Jakarta Kota (2)",
-      "photo": "../../assets/20251208_200853.jpg"
+      "photo": "/assets/20251208_200853.jpg"
     },
     "location": {
       "latitude": -6.1377933,
@@ -1408,7 +1408,7 @@ export const galleryData = [
     "id": 39,
     "gallery": {
       "title": "Stasiun Kemayoran (1)",
-      "photo": "../../assets/20251213_082953.jpg"
+      "photo": "/assets/20251213_082953.jpg"
     },
     "location": {
       "latitude": -6.162310999722223,
@@ -1447,7 +1447,7 @@ export const galleryData = [
     "id": 38,
     "gallery": {
       "title": "Stasiun Kemayoran (2)",
-      "photo": "../../assets/20251213_083206.jpg"
+      "photo": "/assets/20251213_083206.jpg"
     },
     "location": {
       "latitude": -6.16133,
@@ -1486,7 +1486,7 @@ export const galleryData = [
     "id": 40,
     "gallery": {
       "title": "Stasiun Kemayoran (3 )",
-      "photo": "../../assets/20251213_083217.jpg"
+      "photo": "/assets/20251213_083217.jpg"
     },
     "location": {
       "latitude": -6.16133,
@@ -1525,7 +1525,7 @@ export const galleryData = [
     "id": 42,
     "gallery": {
       "title": "Stasiun Kampung Bandan",
-      "photo": "../../assets/20251213_090142.jpg"
+      "photo": "/assets/20251213_090142.jpg"
     },
     "location": {
       "latitude": -6.132558799722222,
@@ -1564,7 +1564,7 @@ export const galleryData = [
     "id": 41,
     "gallery": {
       "title": "Stasiun Angke",
-      "photo": "../../assets/20251213_091119.jpg"
+      "photo": "/assets/20251213_091119.jpg"
     },
     "location": {
       "latitude": -6.1450357,
@@ -1603,7 +1603,7 @@ export const galleryData = [
     "id": 44,
     "gallery": {
       "title": "Stasiun Duri (1)",
-      "photo": "../../assets/20251213_092634.jpg"
+      "photo": "/assets/20251213_092634.jpg"
     },
     "location": {
       "latitude": -6.1552663,
@@ -1642,7 +1642,7 @@ export const galleryData = [
     "id": 45,
     "gallery": {
       "title": "Stasiun Duri (2)",
-      "photo": "../../assets/20251213_092727.jpg"
+      "photo": "/assets/20251213_092727.jpg"
     },
     "location": {
       "latitude": -6.1551561,
@@ -1681,7 +1681,7 @@ export const galleryData = [
     "id": 43,
     "gallery": {
       "title": "Stasiun Duri (3)",
-      "photo": "../../assets/20251213_092827.jpg"
+      "photo": "/assets/20251213_092827.jpg"
     },
     "location": {
       "latitude": -6.155166699722223,
@@ -1720,7 +1720,7 @@ export const galleryData = [
     "id": 46,
     "gallery": {
       "title": "Stasiun Duri (4)",
-      "photo": "../../assets/20251213_092830.jpg"
+      "photo": "/assets/20251213_092830.jpg"
     },
     "location": {
       "latitude": -6.155166699722223,
@@ -1759,7 +1759,7 @@ export const galleryData = [
     "id": 47,
     "gallery": {
       "title": "Stasiun Duri (5)",
-      "photo": "../../assets/20251213_092834.jpg"
+      "photo": "/assets/20251213_092834.jpg"
     },
     "location": {
       "latitude": -6.155166699722223,
@@ -1798,7 +1798,7 @@ export const galleryData = [
     "id": 48,
     "gallery": {
       "title": "Stasiun Duri (6)",
-      "photo": "../../assets/20251213_092839.jpg"
+      "photo": "/assets/20251213_092839.jpg"
     },
     "location": {
       "latitude": -6.155166699722223,
@@ -1837,7 +1837,7 @@ export const galleryData = [
     "id": 50,
     "gallery": {
       "title": "Stasiun Grogol",
-      "photo": "../../assets/20251213_094334.jpg"
+      "photo": "/assets/20251213_094334.jpg"
     },
     "location": {
       "latitude": -6.1617316,
@@ -1876,7 +1876,7 @@ export const galleryData = [
     "id": 54,
     "gallery": {
       "title": "Stasiun Pesing",
-      "photo": "../../assets/20251213_100048.jpg"
+      "photo": "/assets/20251213_100048.jpg"
     },
     "location": {
       "latitude": -6.161095399722223,
@@ -1915,7 +1915,7 @@ export const galleryData = [
     "id": 55,
     "gallery": {
       "title": "Stasiun Taman Kota (1)",
-      "photo": "../../assets/20251213_102204.jpg"
+      "photo": "/assets/20251213_102204.jpg"
     },
     "location": {
       "latitude": -6.1586166,
@@ -1954,7 +1954,7 @@ export const galleryData = [
     "id": 51,
     "gallery": {
       "title": "Stasiun Taman Kota (2)",
-      "photo": "../../assets/20251213_102228.jpg"
+      "photo": "/assets/20251213_102228.jpg"
     },
     "location": {
       "latitude": -6.1585244,
@@ -1993,7 +1993,7 @@ export const galleryData = [
     "id": 52,
     "gallery": {
       "title": "Stasiun Taman Kota (3)",
-      "photo": "../../assets/20251213_102230.jpg"
+      "photo": "/assets/20251213_102230.jpg"
     },
     "location": {
       "latitude": -6.1585244,
@@ -2032,7 +2032,7 @@ export const galleryData = [
     "id": 53,
     "gallery": {
       "title": "Stasiun Bojong Indah",
-      "photo": "../../assets/20251213_103735.jpg"
+      "photo": "/assets/20251213_103735.jpg"
     },
     "location": {
       "latitude": -6.1606011,
@@ -2071,7 +2071,7 @@ export const galleryData = [
     "id": 57,
     "gallery": {
       "title": "Stasiun Rawa Buaya (1)",
-      "photo": "../../assets/20251213_105409.jpg"
+      "photo": "/assets/20251213_105409.jpg"
     },
     "location": {
       "latitude": -6.1626379,
@@ -2110,7 +2110,7 @@ export const galleryData = [
     "id": 58,
     "gallery": {
       "title": "Stasiun Rawa Buaya (2)",
-      "photo": "../../assets/20251213_105542.jpg"
+      "photo": "/assets/20251213_105542.jpg"
     },
     "location": {
       "latitude": -6.162659399722223,
@@ -2149,7 +2149,7 @@ export const galleryData = [
     "id": 60,
     "gallery": {
       "title": "Stasiun Rawa Buaya (3)",
-      "photo": "../../assets/20251213_105644.jpg"
+      "photo": "/assets/20251213_105644.jpg"
     },
     "location": {
       "latitude": -6.162600499722223,
@@ -2188,7 +2188,7 @@ export const galleryData = [
     "id": 56,
     "gallery": {
       "title": "Stasiun Rawa Buaya (4)",
-      "photo": "../../assets/20251213_105652.jpg"
+      "photo": "/assets/20251213_105652.jpg"
     },
     "location": {
       "latitude": -6.162600499722223,
@@ -2227,7 +2227,7 @@ export const galleryData = [
     "id": 59,
     "gallery": {
       "title": "Stasiun Kalideres (1)",
-      "photo": "../../assets/20251213_112638.jpg"
+      "photo": "/assets/20251213_112638.jpg"
     },
     "location": {
       "latitude": -6.1660886,
@@ -2267,7 +2267,7 @@ export const galleryData = [
     "id": 62,
     "gallery": {
       "title": "Stasiun Kalideres (2)",
-      "photo": "../../assets/20251213_112800.jpg"
+      "photo": "/assets/20251213_112800.jpg"
     },
     "location": {
       "latitude": -6.1660316,
@@ -2306,7 +2306,7 @@ export const galleryData = [
     "id": 65,
     "gallery": {
       "title": "Stasiun Poris (1)",
-      "photo": "../../assets/20251213_120237.jpg"
+      "photo": "/assets/20251213_120237.jpg"
     },
     "location": {
       "latitude": -6.1698886,
@@ -2345,7 +2345,7 @@ export const galleryData = [
     "id": 63,
     "gallery": {
       "title": "Stasiun Poris (2)",
-      "photo": "../../assets/20251213_120251.jpg"
+      "photo": "/assets/20251213_120251.jpg"
     },
     "location": {
       "latitude": -6.169873599722223,
@@ -2384,7 +2384,7 @@ export const galleryData = [
     "id": 64,
     "gallery": {
       "title": "Stasiun Poris (3)",
-      "photo": "../../assets/20251213_120355.jpg"
+      "photo": "/assets/20251213_120355.jpg"
     },
     "location": {
       "latitude": -6.169871699722223,
@@ -2423,7 +2423,7 @@ export const galleryData = [
     "id": 67,
     "gallery": {
       "title": "Stasiun Batu Ceper (1)",
-      "photo": "../../assets/20251213_123141.jpg"
+      "photo": "/assets/20251213_123141.jpg"
     },
     "location": {
       "latitude": -6.1723333,
@@ -2462,7 +2462,7 @@ export const galleryData = [
     "id": 66,
     "gallery": {
       "title": "Stasiun Batu Ceper (2)",
-      "photo": "../../assets/20251213_123321.jpg"
+      "photo": "/assets/20251213_123321.jpg"
     },
     "location": {
       "latitude": -6.172366199722222,
@@ -2501,7 +2501,7 @@ export const galleryData = [
     "id": 70,
     "gallery": {
       "title": "Stasiun Batu Ceper (3)",
-      "photo": "../../assets/20251213_123334.jpg"
+      "photo": "/assets/20251213_123334.jpg"
     },
     "location": {
       "latitude": -6.172366199722222,
@@ -2540,7 +2540,7 @@ export const galleryData = [
     "id": 68,
     "gallery": {
       "title": "Stasiun Tanah Tinggi",
-      "photo": "../../assets/20251213_131027.jpg"
+      "photo": "/assets/20251213_131027.jpg"
     },
     "location": {
       "latitude": -6.1754464,
@@ -2579,7 +2579,7 @@ export const galleryData = [
     "id": 69,
     "gallery": {
       "title": "Stasiun Tangerang (1)",
-      "photo": "../../assets/20251213_134440.jpg"
+      "photo": "/assets/20251213_134440.jpg"
     },
     "location": {
       "latitude": -6.177017,
@@ -2618,7 +2618,7 @@ export const galleryData = [
     "id": 71,
     "gallery": {
       "title": "Stasiun Tangerang (2)",
-      "photo": "../../assets/20251213_134450.jpg"
+      "photo": "/assets/20251213_134450.jpg"
     },
     "location": {
       "latitude": -6.177017,
@@ -2657,7 +2657,7 @@ export const galleryData = [
     "id": 73,
     "gallery": {
       "title": "Stasiun Tangerang (3)",
-      "photo": "../../assets/20251213_134515.jpg"
+      "photo": "/assets/20251213_134515.jpg"
     },
     "location": {
       "latitude": -6.1767614,
@@ -2696,7 +2696,7 @@ export const galleryData = [
     "id": 72,
     "gallery": {
       "title": "Stasiun Tangerang (4)",
-      "photo": "../../assets/20251213_134730.jpg"
+      "photo": "/assets/20251213_134730.jpg"
     },
     "location": {
       "latitude": -6.176899999722223,
@@ -2735,7 +2735,7 @@ export const galleryData = [
     "id": 74,
     "gallery": {
       "title": "Stasiun Tangerang (5)",
-      "photo": "../../assets/20251213_134740.jpg"
+      "photo": "/assets/20251213_134740.jpg"
     },
     "location": {
       "latitude": -6.176899999722223,
@@ -2774,7 +2774,7 @@ export const galleryData = [
     "id": 75,
     "gallery": {
       "title": "Stasiun Gang Sentiong",
-      "photo": "../../assets/20251213_180624.jpg"
+      "photo": "/assets/20251213_180624.jpg"
     },
     "location": {
       "latitude": -6.1861828,
@@ -2813,7 +2813,7 @@ export const galleryData = [
     "id": 76,
     "gallery": {
       "title": "Stasiun Klender (1)" ,
-      "photo": "../../assets/20251213_190241.jpg"
+      "photo": "/assets/20251213_190241.jpg"
     },
     "location": {
       "latitude": -6.213092699722222,
@@ -2852,7 +2852,7 @@ export const galleryData = [
     "id": 80,
     "gallery": {
       "title": "Stasiun Klender (2)",
-      "photo": "../../assets/20251213_190315.jpg"
+      "photo": "/assets/20251213_190315.jpg"
     },
     "location": {
       "latitude": -6.2132284,
@@ -2891,7 +2891,7 @@ export const galleryData = [
     "id": 78,
     "gallery": {
       "title": "Stasiun Buaran",
-      "photo": "../../assets/20251213_192519.jpg"
+      "photo": "/assets/20251213_192519.jpg"
     },
     "location": {
       "latitude": -6.2155091,
@@ -2930,7 +2930,7 @@ export const galleryData = [
     "id": 77,
     "gallery": {
       "title": "Stasiun Klender Baru (1)",
-      "photo": "../../assets/20251213_193142.jpg"
+      "photo": "/assets/20251213_193142.jpg"
     },
     "location": {
       "latitude": -6.217478299722222,
@@ -2969,7 +2969,7 @@ export const galleryData = [
     "id": 79,
     "gallery": {
       "title": "Stasiun Klender Baru (2)",
-      "photo": "../../assets/20251213_193147.jpg"
+      "photo": "/assets/20251213_193147.jpg"
     },
     "location": {
       "latitude": -6.217478299722222,
@@ -3008,7 +3008,7 @@ export const galleryData = [
     "id": 82,
     "gallery": {
       "title": "Stasiun Cakung (1)",
-      "photo": "../../assets/20251213_194312.jpg"
+      "photo": "/assets/20251213_194312.jpg"
     },
     "location": {
       "latitude": -6.2190295,
@@ -3047,7 +3047,7 @@ export const galleryData = [
     "id": 81,
     "gallery": {
       "title": "Stasiun Cakung (2)",
-      "photo": "../../assets/20251213_194344.jpg"
+      "photo": "/assets/20251213_194344.jpg"
     },
     "location": {
       "latitude": -6.2190817,
@@ -3086,7 +3086,7 @@ export const galleryData = [
     "id": 83,
     "gallery": {
       "title": "Stasiun Cakung (3)",
-      "photo": "../../assets/20251213_194415.jpg"
+      "photo": "/assets/20251213_194415.jpg"
     },
     "location": {
       "latitude": -6.2190317,
@@ -3125,7 +3125,7 @@ export const galleryData = [
     "id": 84,
     "gallery": {
       "title": "Stasiun Cakung (4)",
-      "photo": "../../assets/20251213_194453.jpg"
+      "photo": "/assets/20251213_194453.jpg"
     },
     "location": {
       "latitude": -6.219019,
@@ -3164,7 +3164,7 @@ export const galleryData = [
     "id": 85,
     "gallery": {
       "title": "Stasiun Cakung (5)",
-      "photo": "../../assets/20251213_194501.jpg"
+      "photo": "/assets/20251213_194501.jpg"
     },
     "location": {
       "latitude": -6.219019,
@@ -3203,7 +3203,7 @@ export const galleryData = [
     "id": 86,
     "gallery": {
       "title": "Stasiun Kranji (1)",
-      "photo": "../../assets/20251213_195123.jpg"
+      "photo": "/assets/20251213_195123.jpg"
     },
     "location": {
       "latitude": -6.2245109,
@@ -3242,7 +3242,7 @@ export const galleryData = [
     "id": 89,
     "gallery": {
       "title": "Stasiun Kranji (2)",
-      "photo": "../../assets/20251213_195140.jpg"
+      "photo": "/assets/20251213_195140.jpg"
     },
     "location": {
       "latitude": -6.2245444,
@@ -3281,7 +3281,7 @@ export const galleryData = [
     "id": 90,
     "gallery": {
       "title": "Stasiun Bekasi",
-      "photo": "../../assets/20251213_200814.jpg"
+      "photo": "/assets/20251213_200814.jpg"
     },
     "location": {
       "latitude": -6.2364999,
@@ -3320,7 +3320,7 @@ export const galleryData = [
     "id": 87,
     "gallery": {
       "title": "Seberang Bekasi Timur (1)",
-      "photo": "../../assets/20251213_202511.jpg"
+      "photo": "/assets/20251213_202511.jpg"
     },
     "location": {
       "latitude": -6.246774099722222,
@@ -3359,7 +3359,7 @@ export const galleryData = [
     "id": 88,
     "gallery": {
       "title": "Stasiun Bekasi Timur (2)",
-      "photo": "../../assets/20251213_202536.jpg"
+      "photo": "/assets/20251213_202536.jpg"
     },
     "location": {
       "latitude": -6.2467926,
@@ -3398,7 +3398,7 @@ export const galleryData = [
     "id": 91,
     "gallery": {
       "title": "Stasiun Tambun",
-      "photo": "../../assets/20251213_204831.jpg"
+      "photo": "/assets/20251213_204831.jpg"
     },
     "location": {
       "latitude": -6.2586655,
@@ -3437,7 +3437,7 @@ export const galleryData = [
     "id": 93,
     "gallery": {
       "title": "Stasiun Cibitung (1)",
-      "photo": "../../assets/20251213_210543.jpg"
+      "photo": "/assets/20251213_210543.jpg"
     },
     "location": {
       "latitude": -6.2618827,
@@ -3476,7 +3476,7 @@ export const galleryData = [
     "id": 92,
     "gallery": {
       "title": "Stasiun Cibitung (2)",
-      "photo": "../../assets/20251213_210602.jpg"
+      "photo": "/assets/20251213_210602.jpg"
     },
     "location": {
       "latitude": -6.2618726,
@@ -3515,7 +3515,7 @@ export const galleryData = [
     "id": 94,
     "gallery": {
       "title": "Stasiun Metland Telagamurni",
-      "photo": "../../assets/20251213_212756.jpg"
+      "photo": "/assets/20251213_212756.jpg"
     },
     "location": {
       "latitude": -6.257158,
@@ -3554,7 +3554,7 @@ export const galleryData = [
     "id": 95,
     "gallery": {
       "title": "Stasiun Cikarang (1)",
-      "photo": "../../assets/20251213_214314.jpg"
+      "photo": "/assets/20251213_214314.jpg"
     },
     "location": {
       "latitude": -6.2554723,
@@ -3593,7 +3593,7 @@ export const galleryData = [
     "id": 98,
     "gallery": {
       "title": "Stasiun Cikarang (2)",
-      "photo": "../../assets/20251213_214413.jpg"
+      "photo": "/assets/20251213_214413.jpg"
     },
     "location": {
       "latitude": -6.255366699722222,
@@ -3632,7 +3632,7 @@ export const galleryData = [
     "id": 97,
     "gallery": {
       "title": "Stasiun Cikarang (3)",
-      "photo": "../../assets/20251213_214424.jpg"
+      "photo": "/assets/20251213_214424.jpg"
     },
     "location": {
       "latitude": -6.255366699722222,
@@ -3671,7 +3671,7 @@ export const galleryData = [
     "id": 99,
     "gallery": {
       "title": "Stasiun Cikarang (4)",
-      "photo": "../../assets/20251213_214432.jpg"
+      "photo": "/assets/20251213_214432.jpg"
     },
     "location": {
       "latitude": -6.255474699722222,
@@ -3710,7 +3710,7 @@ export const galleryData = [
     "id": 96,
     "gallery": {
       "title": "Stasiun Palmerah (1)",
-      "photo": "../../assets/20251214_065759.jpg"
+      "photo": "/assets/20251214_065759.jpg"
     },
     "location": {
       "latitude": -6.207087699722222,
@@ -3749,7 +3749,7 @@ export const galleryData = [
     "id": 100,
     "gallery": {
       "title": "Stasiun Palmerah (2)",
-      "photo": "../../assets/20251214_065908.jpg"
+      "photo": "/assets/20251214_065908.jpg"
     },
     "location": {
       "latitude": -6.207087699722222,
@@ -3788,7 +3788,7 @@ export const galleryData = [
     "id": 101,
     "gallery": {
       "title": "Stasiun Kebayoran (1)",
-      "photo": "../../assets/20251214_071424.jpg"
+      "photo": "/assets/20251214_071424.jpg"
     },
     "location": {
       "latitude": -6.237557999722222,
@@ -3827,7 +3827,7 @@ export const galleryData = [
     "id": 103,
     "gallery": {
       "title": "Stasiun Kebayoran (2)",
-      "photo": "../../assets/20251214_071555.jpg"
+      "photo": "/assets/20251214_071555.jpg"
     },
     "location": {
       "latitude": -6.237528799722222,
@@ -3866,7 +3866,7 @@ export const galleryData = [
     "id": 102,
     "gallery": {
       "title": "Stasiun Kebayoran (3)",
-      "photo": "../../assets/20251214_071601.jpg"
+      "photo": "/assets/20251214_071601.jpg"
     },
     "location": {
       "latitude": -6.237528799722222,
@@ -3905,7 +3905,7 @@ export const galleryData = [
     "id": 105,
     "gallery": {
       "title": "Stasiun Kebayoran (4)",
-      "photo": "../../assets/20251214_071718.jpg"
+      "photo": "/assets/20251214_071718.jpg"
     },
     "location": {
       "latitude": -6.2376293,
@@ -3944,7 +3944,7 @@ export const galleryData = [
     "id": 104,
     "gallery": {
       "title": "Stasiun Pondok Ranji (1)",
-      "photo": "../../assets/20251214_073049.jpg"
+      "photo": "/assets/20251214_073049.jpg"
     },
     "location": {
       "latitude": -6.276926699722222,
@@ -3983,7 +3983,7 @@ export const galleryData = [
     "id": 107,
     "gallery": {
       "title": "Stasiun Pondok Ranji (2)",
-      "photo": "../../assets/20251214_073243.jpg"
+      "photo": "/assets/20251214_073243.jpg"
     },
     "location": {
       "latitude": -6.276566599722222,
@@ -4022,7 +4022,7 @@ export const galleryData = [
     "id": 110,
     "gallery": {
       "title": "Stasiun Pondok Ranji (3)",
-      "photo": "../../assets/20251214_073708.jpg"
+      "photo": "/assets/20251214_073708.jpg"
     },
     "location": {
       "latitude": -6.276920999722222,
@@ -4061,7 +4061,7 @@ export const galleryData = [
     "id": 106,
     "gallery": {
       "title": "Stasiun Jurang Mangu (1)",
-      "photo": "../../assets/20251214_075803.jpg"
+      "photo": "/assets/20251214_075803.jpg"
     },
     "location": {
       "latitude": -6.2889447,
@@ -4100,7 +4100,7 @@ export const galleryData = [
     "id": 108,
     "gallery": {
       "title": "Stasiun Jurang Mangu (2)",
-      "photo": "../../assets/20251214_080323.jpg"
+      "photo": "/assets/20251214_080323.jpg"
     },
     "location": {
       "latitude": -6.288649399722222,
@@ -4139,7 +4139,7 @@ export const galleryData = [
     "id": 109,
     "gallery": {
       "title": "Stasiun Sudimara (1)",
-      "photo": "../../assets/20251214_082312.jpg"
+      "photo": "/assets/20251214_082312.jpg"
     },
     "location": {
       "latitude": -6.296642099722222,
@@ -4178,7 +4178,7 @@ export const galleryData = [
     "id": 114,
     "gallery": {
       "title": "Stasiun Sudimara (2)",
-      "photo": "../../assets/20251214_082327.jpg"
+      "photo": "/assets/20251214_082327.jpg"
     },
     "location": {
       "latitude": -6.2971398,
@@ -4217,7 +4217,7 @@ export const galleryData = [
     "id": 111,
     "gallery": {
       "title": "Stasiun Sudimara (3)",
-      "photo": "../../assets/20251214_082350.jpg"
+      "photo": "/assets/20251214_082350.jpg"
     },
     "location": {
       "latitude": -6.296636099722222,
@@ -4256,7 +4256,7 @@ export const galleryData = [
     "id": 115,
     "gallery": {
       "title": "Stasiun Sudimara (4)",
-      "photo": "../../assets/20251214_082357.jpg"
+      "photo": "/assets/20251214_082357.jpg"
     },
     "location": {
       "latitude": -6.296636099722222,
@@ -4295,7 +4295,7 @@ export const galleryData = [
     "id": 113,
     "gallery": {
       "title": "Stasiun Sudimara (5)",
-      "photo": "../../assets/20251214_082906.jpg"
+      "photo": "/assets/20251214_082906.jpg"
     },
     "location": {
       "latitude": -6.2968174,
@@ -4334,7 +4334,7 @@ export const galleryData = [
     "id": 112,
     "gallery": {
       "title": "Stasiun Sudimara (6)",
-      "photo": "../../assets/20251214_083001.jpg"
+      "photo": "/assets/20251214_083001.jpg"
     },
     "location": {
       "latitude": -6.296872699722222,
@@ -4373,7 +4373,7 @@ export const galleryData = [
     "id": 116,
     "gallery": {
       "title": "Stasiun Rawa Buntu (1)",
-      "photo": "../../assets/20251214_084607.jpg"
+      "photo": "/assets/20251214_084607.jpg"
     },
     "location": {
       "latitude": -6.315091599722222,
@@ -4412,7 +4412,7 @@ export const galleryData = [
     "id": 118,
     "gallery": {
       "title": "Stasiun Rawa Buntu (2)",
-      "photo": "../../assets/20251214_084615.jpg"
+      "photo": "/assets/20251214_084615.jpg"
     },
     "location": {
       "latitude": -6.314911599999999,
@@ -4451,7 +4451,7 @@ export const galleryData = [
     "id": 120,
     "gallery": {
       "title": "Stasiun Rawa Buntu (3)",
-      "photo": "../../assets/20251214_084623.jpg"
+      "photo": "/assets/20251214_084623.jpg"
     },
     "location": {
       "latitude": -6.314911599999999,
@@ -4490,7 +4490,7 @@ export const galleryData = [
     "id": 117,
     "gallery": {
       "title": "Stasiun Rawa Buntu (4)",
-      "photo": "../../assets/20251214_084803.jpg"
+      "photo": "/assets/20251214_084803.jpg"
     },
     "location": {
       "latitude": -6.3146433,
@@ -4529,7 +4529,7 @@ export const galleryData = [
     "id": 119,
     "gallery": {
       "title": "Stasiun Rawa Buntu (5)",
-      "photo": "../../assets/20251214_084837.jpg"
+      "photo": "/assets/20251214_084837.jpg"
     },
     "location": {
       "latitude": -6.3145416,
@@ -4568,7 +4568,7 @@ export const galleryData = [
     "id": 121,
     "gallery": {
       "title": "Stasiun Rawa Buntu (6)",
-      "photo": "../../assets/20251214_084906.jpg"
+      "photo": "/assets/20251214_084906.jpg"
     },
     "location": {
       "latitude": -6.3145416,
@@ -4607,7 +4607,7 @@ export const galleryData = [
     "id": 122,
     "gallery": {
       "title": "Stasiun Cisauk (1)",
-      "photo": "../../assets/20251214_091249.jpg"
+      "photo": "/assets/20251214_091249.jpg"
     },
     "location": {
       "latitude": -6.324354699722222,
@@ -4646,7 +4646,7 @@ export const galleryData = [
     "id": 123,
     "gallery": {
       "title": "Stasiun Cisauk (2)",
-      "photo": "../../assets/20251214_091457.jpg"
+      "photo": "/assets/20251214_091457.jpg"
     },
     "location": {
       "latitude": -6.3243035999999995,
@@ -4685,7 +4685,7 @@ export const galleryData = [
     "id": 124,
     "gallery": {
       "title": "Stasiun Cicayur (1)",
-      "photo": "../../assets/20251214_094448.jpg"
+      "photo": "/assets/20251214_094448.jpg"
     },
     "location": {
       "latitude": -6.329657499722222,
@@ -4724,7 +4724,7 @@ export const galleryData = [
     "id": 125,
     "gallery": {
       "title": "Stasiun Cicayur (2)",
-      "photo": "../../assets/20251214_094616.jpg"
+      "photo": "/assets/20251214_094616.jpg"
     },
     "location": {
       "latitude": -6.329657499722222,
@@ -4763,7 +4763,7 @@ export const galleryData = [
     "id": 130,
     "gallery": {
       "title": "Stasiun Cicayur (3)",
-      "photo": "../../assets/20251214_094651.jpg"
+      "photo": "/assets/20251214_094651.jpg"
     },
     "location": {
       "latitude": -6.329669399999999,
@@ -4802,7 +4802,7 @@ export const galleryData = [
     "id": 126,
     "gallery": {
       "title": "Stasiun Cicayur (4)",
-      "photo": "../../assets/20251214_094657.jpg"
+      "photo": "/assets/20251214_094657.jpg"
     },
     "location": {
       "latitude": -6.329669399999999,
@@ -4841,7 +4841,7 @@ export const galleryData = [
     "id": 127,
     "gallery": {
       "title": "Stasiun Parung Panjang (1)",
-      "photo": "../../assets/20251214_101255.jpg"
+      "photo": "/assets/20251214_101255.jpg"
     },
     "location": {
       "latitude": -6.3443271999999995,
@@ -4880,7 +4880,7 @@ export const galleryData = [
     "id": 128,
     "gallery": {
       "title": "Stasiun Parungpanjang (2)",
-      "photo": "../../assets/20251214_101257.jpg"
+      "photo": "/assets/20251214_101257.jpg"
     },
     "location": {
       "latitude": -6.3443271999999995,
@@ -4919,7 +4919,7 @@ export const galleryData = [
     "id": 129,
     "gallery": {
       "title": "Stasiun Parungpanjang (3)",
-      "photo": "../../assets/20251214_101302.jpg"
+      "photo": "/assets/20251214_101302.jpg"
     },
     "location": {
       "latitude": -6.3441982999999995,
@@ -4958,7 +4958,7 @@ export const galleryData = [
     "id": 131,
     "gallery": {
       "title": "Stasiun Parungpanjang (4)",
-      "photo": "../../assets/20251214_101306.jpg"
+      "photo": "/assets/20251214_101306.jpg"
     },
     "location": {
       "latitude": -6.3441982999999995,
@@ -4997,7 +4997,7 @@ export const galleryData = [
     "id": 133,
     "gallery": {
       "title": "Stasiun Daru",
-      "photo": "../../assets/20251214_104349.jpg"
+      "photo": "/assets/20251214_104349.jpg"
     },
     "location": {
       "latitude": -6.337310099722222,
@@ -5036,7 +5036,7 @@ export const galleryData = [
     "id": 132,
     "gallery": {
       "title": "Stasiun Tigaraksa (1)",
-      "photo": "../../assets/20251214_113328.jpg"
+      "photo": "/assets/20251214_113328.jpg"
     },
     "location": {
       "latitude": -6.328836599722222,
@@ -5075,7 +5075,7 @@ export const galleryData = [
     "id": 134,
     "gallery": {
       "title": "Stasiun Tigaraksa (2)",
-      "photo": "../../assets/20251214_113332.jpg"
+      "photo": "/assets/20251214_113332.jpg"
     },
     "location": {
       "latitude": -6.328593299722222,
@@ -5114,7 +5114,7 @@ export const galleryData = [
     "id": 135,
     "gallery": {
       "title": "Stasiun Tigaraksa (3)",
-      "photo": "../../assets/20251214_113403.jpg"
+      "photo": "/assets/20251214_113403.jpg"
     },
     "location": {
       "latitude": -6.328564899722222,
@@ -5153,7 +5153,7 @@ export const galleryData = [
     "id": 137,
     "gallery": {
       "title": "Stasiun Tigaraksa (4)",
-      "photo": "../../assets/20251214_113408.jpg"
+      "photo": "/assets/20251214_113408.jpg"
     },
     "location": {
       "latitude": -6.3286166,
@@ -5192,7 +5192,7 @@ export const galleryData = [
     "id": 136,
     "gallery": {
       "title": "Stasiun Cikoya",
-      "photo": "../../assets/20251214_115010.jpg"
+      "photo": "/assets/20251214_115010.jpg"
     },
     "location": {
       "latitude": -6.335640799999999,
@@ -5231,7 +5231,7 @@ export const galleryData = [
     "id": 140,
     "gallery": {
       "title": "Stasiun Maja (1)",
-      "photo": "../../assets/20251214_121211.jpg"
+      "photo": "/assets/20251214_121211.jpg"
     },
     "location": {
       "latitude": -6.332001099999999,
@@ -5270,7 +5270,7 @@ export const galleryData = [
     "id": 139,
     "gallery": {
       "title": "Stasiun Maja (2)",
-      "photo": "../../assets/20251214_121353.jpg"
+      "photo": "/assets/20251214_121353.jpg"
     },
     "location": {
       "latitude": -6.332302599999999,
@@ -5309,7 +5309,7 @@ export const galleryData = [
     "id": 138,
     "gallery": {
       "title": "Stasiun Maja (3)",
-      "photo": "../../assets/20251214_121409.jpg"
+      "photo": "/assets/20251214_121409.jpg"
     },
     "location": {
       "latitude": -6.332302599999999,
@@ -5348,7 +5348,7 @@ export const galleryData = [
     "id": 141,
     "gallery": {
       "title": "Stasiun Citeras (1)",
-      "photo": "../../assets/20251214_124707.jpg"
+      "photo": "/assets/20251214_124707.jpg"
     },
     "location": {
       "latitude": -6.3350868,
@@ -5387,7 +5387,7 @@ export const galleryData = [
     "id": 143,
     "gallery": {
       "title": "Stasiun Citeras (2)",
-      "photo": "../../assets/20251214_124711.jpg"
+      "photo": "/assets/20251214_124711.jpg"
     },
     "location": {
       "latitude": -6.3350868,
@@ -5426,7 +5426,7 @@ export const galleryData = [
     "id": 142,
     "gallery": {
       "title": "Stasiun Citeras (3)",
-      "photo": "../../assets/20251214_124718.jpg"
+      "photo": "/assets/20251214_124718.jpg"
     },
     "location": {
       "latitude": -6.334836799722222,
@@ -5465,7 +5465,7 @@ export const galleryData = [
     "id": 144,
     "gallery": {
       "title": "Stasiun Citeras (4)",
-      "photo": "../../assets/20251214_124722.jpg"
+      "photo": "/assets/20251214_124722.jpg"
     },
     "location": {
       "latitude": -6.334836799722222,
@@ -5504,7 +5504,7 @@ export const galleryData = [
     "id": 145,
     "gallery": {
       "title": "Stasiun Citeras (5)",
-      "photo": "../../assets/20251214_124728.jpg"
+      "photo": "/assets/20251214_124728.jpg"
     },
     "location": {
       "latitude": -6.334942799999999,
@@ -5543,7 +5543,7 @@ export const galleryData = [
     "id": 147,
     "gallery": {
       "title": "Stasiun Serpong (1)",
-      "photo": "../../assets/20251214_144128.jpg"
+      "photo": "/assets/20251214_144128.jpg"
     },
     "location": {
       "latitude": -6.3199724,
@@ -5582,7 +5582,7 @@ export const galleryData = [
     "id": 150,
     "gallery": {
       "title": "Stasiun Serpong (2)",
-      "photo": "../../assets/20251214_144449.jpg"
+      "photo": "/assets/20251214_144449.jpg"
     },
     "location": {
       "latitude": -6.3200218999999995,
@@ -5621,7 +5621,7 @@ export const galleryData = [
     "id": 146,
     "gallery": {
       "title": "Stasiun Karet (1)",
-      "photo": "../../assets/20251214_154435.jpg"
+      "photo": "/assets/20251214_154435.jpg"
     },
     "location": {
       "latitude": -6.201016599722222,
@@ -5660,7 +5660,7 @@ export const galleryData = [
     "id": 149,
     "gallery": {
       "title": "Stasiun Karet (2)",
-      "photo": "../../assets/20251214_154442.jpg"
+      "photo": "/assets/20251214_154442.jpg"
     },
     "location": {
       "latitude": -6.201016599722222,
@@ -5699,7 +5699,7 @@ export const galleryData = [
     "id": 148,
     "gallery": {
       "title": "Stasiun Karet (3)",
-      "photo": "../../assets/20251214_154514.jpg"
+      "photo": "/assets/20251214_154514.jpg"
     },
     "location": {
       "latitude": -6.2010949,
@@ -5738,7 +5738,7 @@ export const galleryData = [
     "id": 151,
     "gallery": {
       "title": "Stasiun Karet (4)",
-      "photo": "../../assets/20251214_154530.jpg"
+      "photo": "/assets/20251214_154530.jpg"
     },
     "location": {
       "latitude": -6.200787499722223,
@@ -5777,7 +5777,7 @@ export const galleryData = [
     "id": 152,
     "gallery": {
       "title": "Stasiun BNI City (1)",
-      "photo": "../../assets/20251214_155540.jpg"
+      "photo": "/assets/20251214_155540.jpg"
     },
     "location": {
       "latitude": -6.201587599722222,
@@ -5816,7 +5816,7 @@ export const galleryData = [
     "id": 153,
     "gallery": {
       "title": "Stasiun BNI City (2)",
-      "photo": "../../assets/20251214_155604.jpg"
+      "photo": "/assets/20251214_155604.jpg"
     },
     "location": {
       "latitude": -6.201587599722222,
@@ -5855,7 +5855,7 @@ export const galleryData = [
     "id": 154,
     "gallery": {
       "title": "Stasiun Sudirman",
-      "photo": "../../assets/20251214_160440.jpg"
+      "photo": "/assets/20251214_160440.jpg"
     },
     "location": {
       "latitude": -6.2024846,
@@ -5894,7 +5894,7 @@ export const galleryData = [
     "id": 155,
     "gallery": {
       "title": "Stasiun Pondok Jati (1)",
-      "photo": "../../assets/20251214_171131.jpg"
+      "photo": "/assets/20251214_171131.jpg"
     },
     "location": {
       "latitude": -6.2090116,
@@ -5933,7 +5933,7 @@ export const galleryData = [
     "id": 160,
     "gallery": {
       "title": "Stasiun Pondok Jati (2)",
-      "photo": "../../assets/20251214_171250.jpg"
+      "photo": "/assets/20251214_171250.jpg"
     },
     "location": {
       "latitude": -6.2089249,
@@ -5972,7 +5972,7 @@ export const galleryData = [
     "id": 159,
     "gallery": {
       "title": "Stasiun Kramat (1)",
-      "photo": "../../assets/20251214_173406.jpg"
+      "photo": "/assets/20251214_173406.jpg"
     },
     "location": {
       "latitude": -6.1936726,
@@ -6011,7 +6011,7 @@ export const galleryData = [
     "id": 161,
     "gallery": {
       "title": "Stasiun Kramat (2)",
-      "photo": "../../assets/20251214_173413.jpg"
+      "photo": "/assets/20251214_173413.jpg"
     },
     "location": {
       "latitude": -6.1936726,
@@ -6050,7 +6050,7 @@ export const galleryData = [
     "id": 163,
     "gallery": {
       "title": "KPPN Bogor (1)",
-      "photo": "../../assets/20251218_093007.jpg"
+      "photo": "/assets/20251218_093007.jpg"
     },
     "location": {
       "latitude": -6.603202099722222,
@@ -6089,7 +6089,7 @@ export const galleryData = [
     "id": 162,
     "gallery": {
       "title": "KPPN Bogor (2)",
-      "photo": "../../assets/20251218_145908.jpg"
+      "photo": "/assets/20251218_145908.jpg"
     },
     "location": {
       "latitude": -6.602912299722222,
@@ -6128,7 +6128,7 @@ export const galleryData = [
     "id": 164,
     "gallery": {
       "title": "KPPN Bogor (3)",
-      "photo": "../../assets/20251219_094413.jpg"
+      "photo": "/assets/20251219_094413.jpg"
     },
     "location": {
       "latitude": -6.6029124999999995,
@@ -6167,7 +6167,7 @@ export const galleryData = [
     "id": 165,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (1)",
-      "photo": "../../assets/20251222_121645.jpg"
+      "photo": "/assets/20251222_121645.jpg"
     },
     "location": {
       "latitude": -6.922138099722223,
@@ -6206,7 +6206,7 @@ export const galleryData = [
     "id": 166,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (2)",
-      "photo": "../../assets/20251222_121651.jpg"
+      "photo": "/assets/20251222_121651.jpg"
     },
     "location": {
       "latitude": -6.922138099722223,
@@ -6245,7 +6245,7 @@ export const galleryData = [
     "id": 170,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (3)",
-      "photo": "../../assets/20251222_122558.jpg"
+      "photo": "/assets/20251222_122558.jpg"
     },
     "location": {
       "latitude": -6.922139699722223,
@@ -6284,7 +6284,7 @@ export const galleryData = [
     "id": 167,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (4)",
-      "photo": "../../assets/20251222_122606.jpg"
+      "photo": "/assets/20251222_122606.jpg"
     },
     "location": {
       "latitude": -6.922139699722223,
@@ -6323,7 +6323,7 @@ export const galleryData = [
     "id": 168,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (5)",
-      "photo": "../../assets/20251222_122630.jpg"
+      "photo": "/assets/20251222_122630.jpg"
     },
     "location": {
       "latitude": -6.922117199722223,
@@ -6362,7 +6362,7 @@ export const galleryData = [
     "id": 169,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (6)",
-      "photo": "../../assets/20251222_154926.jpg"
+      "photo": "/assets/20251222_154926.jpg"
     },
     "location": {
       "latitude": -6.921307699722223,
@@ -6401,7 +6401,7 @@ export const galleryData = [
     "id": 171,
     "gallery": {
       "title": "Gedung Keuangan Negara Bandung (7)",
-      "photo": "../../assets/20251222_154931.jpg"
+      "photo": "/assets/20251222_154931.jpg"
     },
     "location": {
       "latitude": -6.921307699722223,
@@ -6440,7 +6440,7 @@ export const galleryData = [
     "id": 175,
     "gallery": {
       "title": "SPBU 34-40508",
-      "photo": "../../assets/20251223_182916.jpg"
+      "photo": "/assets/20251223_182916.jpg"
     },
     "location": {
       "latitude": -6.840138299722222,
@@ -6479,7 +6479,7 @@ export const galleryData = [
     "id": 172,
     "gallery": {
       "title": "SPBU 34-43201 (1)",
-      "photo": "../../assets/20251224_155501.jpg"
+      "photo": "/assets/20251224_155501.jpg"
     },
     "location": {
       "latitude": -6.8030723,
@@ -6518,7 +6518,7 @@ export const galleryData = [
     "id": 173,
     "gallery": {
       "title": "SPBU 34-43201 (2)",
-      "photo": "../../assets/20251224_155508.jpg"
+      "photo": "/assets/20251224_155508.jpg"
     },
     "location": {
       "latitude": -6.8030723,
@@ -6557,7 +6557,7 @@ export const galleryData = [
     "id": 174,
     "gallery": {
       "title": "Masjid Jami Baiturrahman (1)",
-      "photo": "../../assets/20251226_123114.jpg"
+      "photo": "/assets/20251226_123114.jpg"
     },
     "location": {
       "latitude": -6.821087099722222,
@@ -6596,7 +6596,7 @@ export const galleryData = [
     "id": 177,
     "gallery": {
       "title": "Masjid Jami Baiturrahman (2)",
-      "photo": "../../assets/20251226_123127.jpg"
+      "photo": "/assets/20251226_123127.jpg"
     },
     "location": {
       "latitude": -6.821087099722222,
@@ -6635,7 +6635,7 @@ export const galleryData = [
     "id": 176,
     "gallery": {
       "title": "Masjid Jami Baiturrahman (3)",
-      "photo": "../../assets/20251226_123133.jpg"
+      "photo": "/assets/20251226_123133.jpg"
     },
     "location": {
       "latitude": -6.821087099722222,
@@ -6674,7 +6674,7 @@ export const galleryData = [
     "id": 178,
     "gallery": {
       "title": "Stasiun Kampung Bandan",
-      "photo": "../../assets/20251228_061603.jpg"
+      "photo": "/assets/20251228_061603.jpg"
     },
     "location": {
       "latitude": -6.132717899999999,
@@ -6713,7 +6713,7 @@ export const galleryData = [
     "id": 179,
     "gallery": {
       "title": "Stasiun Ancol (1)",
-      "photo": "../../assets/20251228_064436.jpg"
+      "photo": "/assets/20251228_064436.jpg"
     },
     "location": {
       "latitude": -6.128165199722222,
@@ -6752,7 +6752,7 @@ export const galleryData = [
     "id": 180,
     "gallery": {
       "title": "Stasiun Ancol (2)",
-      "photo": "../../assets/20251228_064540.jpg"
+      "photo": "/assets/20251228_064540.jpg"
     },
     "location": {
       "latitude": -6.1280190999999995,
@@ -6791,7 +6791,7 @@ export const galleryData = [
     "id": 181,
     "gallery": {
       "title": "Stasiun Ancol (3)",
-      "photo": "../../assets/20251228_064553.jpg"
+      "photo": "/assets/20251228_064553.jpg"
     },
     "location": {
       "latitude": -6.1280190999999995,
@@ -6830,7 +6830,7 @@ export const galleryData = [
     "id": 182,
     "gallery": {
       "title": "Stasiun Ancol (4)",
-      "photo": "../../assets/20251228_064604.jpg"
+      "photo": "/assets/20251228_064604.jpg"
     },
     "location": {
       "latitude": -6.1280190999999995,
@@ -6869,7 +6869,7 @@ export const galleryData = [
     "id": 183,
     "gallery": {
       "title": "Stasiun Tanjung Priok (1)",
-      "photo": "../../assets/20251228_071812.jpg"
+      "photo": "/assets/20251228_071812.jpg"
     },
     "location": {
       "latitude": -6.110826599999999,
@@ -6908,7 +6908,7 @@ export const galleryData = [
     "id": 184,
     "gallery": {
       "title": "Stasiun Tanjung Priok (2)",
-      "photo": "../../assets/20251228_071820.jpg"
+      "photo": "/assets/20251228_071820.jpg"
     },
     "location": {
       "latitude": -6.110826599999999,
