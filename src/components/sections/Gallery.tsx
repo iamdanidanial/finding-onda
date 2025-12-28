@@ -344,9 +344,14 @@ export default function Gallery() {
           <div className="p-8 space-y-8">
             {/* TITLE */}
             <div>
-              <span className="inline-block mb-2 px-3 py-1 text-xs rounded-full bg-blue-600 text-white">
-                {selected.location.place.type}
-              </span>
+             <span
+                    className={`inline-block px-3 py-1 text-xs font-semibold rounded-full mb-2 ${typeColor(
+                      selected.location?.place.type
+                    )}`}
+                  >
+                    {selected.location?.place.type}
+                  </span>
+
 
               <h2 className="text-3xl font-bold text-slate-800 dark:text-white">
                 {selected.gallery.title}
