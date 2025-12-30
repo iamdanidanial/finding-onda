@@ -5,13 +5,13 @@ import {
   X,
   Sun,
   Moon,
-  Phone,
   MapPin,
   Home,
-  Wrench,
   Info,
   Glasses,
-  Wallet
+  Wallet,
+  SendIcon,
+  NewspaperIcon
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -36,7 +36,8 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
     { label: 'Home', href: '#home', icon: Home },
     { label: 'Tentang', href: '#tentang', icon: Info },
     { label: 'Finding Onda', href: '#gallery', icon: MapPin },
-    { label: 'Cerita', href: '#story', icon: Wallet },
+    { label: 'Posting IG', href: '#instagram', icon: SendIcon },
+    { label: 'Cerita', href: '#story', icon: NewspaperIcon },
   ];
 
   const scrollToSection = (href: string) => {
