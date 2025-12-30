@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import * as Icons from "lucide-react";
+import onda1 from "/assets/onda1.jpeg";
+import onda3 from "/assets/onda3.jpg";
+import onda4 from "/assets/onda4.jpg"; 
+import onda5 from "/assets/onda5.jpg";
 
 export default function Features() {
   // Background images for ONDA theme
   const bgImages = [
-    "https://images.pexels.com/photos/37347/pipe-plumber-plumb.jpg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/585418/pexels-photo-585418.jpeg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/3964343/pexels-photo-3964343.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    onda1,
+    onda3,
+    onda4,
+    onda5,
   ];
 
   const [index, setIndex] = useState(0);
@@ -112,7 +116,7 @@ export default function Features() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            src="https://res.cloudinary.com/dummyimage/onda-banner.jpg"
+            src={onda1}
             className="rounded-3xl w-full h-64 object-cover mt-10 shadow-2xl border border-white/10"
             alt="ONDA Giveaway"
           />

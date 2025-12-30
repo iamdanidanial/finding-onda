@@ -34,11 +34,9 @@ export default function Header({ darkMode, toggleDarkMode }: HeaderProps) {
   // ✔ Ikon sudah diperbaiki agar sesuai menu
   const menuItems = [
     { label: 'Home', href: '#home', icon: Home },
-    { label: 'Services', href: '#services', icon: Wrench },
-    { label: 'Destinations', href: '#destinations', icon: MapPin },
-    { label: 'Pricing', href: '#pricing', icon: Wallet },
-    { label: 'About', href: '#about', icon: Info },
-    { label: 'Contact', href: '#contact', icon: Phone }
+    { label: 'Tentang', href: '#tentang', icon: Info },
+    { label: 'Finding Onda', href: '#gallery', icon: MapPin },
+    { label: 'Cerita', href: '#story', icon: Wallet },
   ];
 
   const scrollToSection = (href: string) => {

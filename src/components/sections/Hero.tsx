@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "../Button";
+import onda1 from "/assets/onda1.jpeg";
+import onda3 from "/assets/onda3.jpg";
+import onda4 from "/assets/onda4.jpg"; 
+import onda5 from "/assets/onda5.jpg";
 
 export default function Hero() {
   // Background slideshow khusus produk ONDA
-  const images = [
-    "https://images.pexels.com/photos/37347/pipe-plumber-plumb.jpg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/585418/pexels-photo-585418.jpeg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/3964343/pexels-photo-3964343.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  const images = [onda1, onda3, onda4, onda5
   ];
 
   const [index, setIndex] = useState(0);
@@ -66,10 +66,6 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
             Temukan Produk <span className="text-blue-400">ONDA</span>
           </h1>
-
-          <h2 className="text-4xl md:text-6xl font-bold text-blue-300 mb-6">
-            & Menangkan Hadiahnya!
-          </h2>
 
           {/* DESCRIPTION */}
           <p className="text-lg md:text-xl text-white/90 mb-10">

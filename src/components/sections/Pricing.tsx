@@ -11,149 +11,137 @@ interface InstagramPost {
 }
 
 const instagramPosts: InstagramPost[] = [
-  {
-    id: "1",
-    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
-    caption: "hello good afternoon from Bali 🌴",
-    link: "https://www.instagram.com/",
-    username: "mata.baldriver",
-    avatar: "https://i.pravatar.cc/150?img=12"
+   {
+    id: "6",
+    image: "/assets/coverpink.png",
+    caption: "Penelusuran di Stasiun Ancol dan Tanjung Priok menunjukkan ketersediaan produk ONDA di seluruh titik. Jalur Pink Line tercatat memiliki tingkat kehadiran ONDA 100%.",
+    link: "https://www.instagram.com/p/DS5fgBcE84r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    username: "iamdanidanial",
+    avatar: "/assets/profile.jpg"
   },
-  {
-    id: "2",
-    image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
-    caption: "Banana boat with lovely guests! 🚤",
-    link: "https://www.instagram.com/",
-    username: "mata.baldriver",
-    avatar: "https://i.pravatar.cc/150?img=32"
+   {
+    id: "5",
+    image: "/assets/coverother.png",
+   caption: "Saya menemukan produk ONDA tidak hanya di Stasiun Commuter Line, tetapi juga di masjid, kantor, hotel, dan ruang publik lainnya. Semua dokumentasi diambil langsung di lokasi sebagai bagian dari penelusuran saya terhadap kehadiran ONDA di kehidupan sehari-hari.",
+    link: "https://www.instagram.com/p/DS5fHIRE445/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    username: "iamdanidanial",
+    avatar: "/assets/profile.jpg"
+  },
+   {
+    id: "4",
+    image: "/assets/coverbrown.png",
+    caption: "Seluruh stasiun di Jalur Coklat terkonfirmasi memiliki produk ONDA. Tidak ditemukan stasiun tanpa kehadiran ONDA pada jalur ini.",
+    link: "https://www.instagram.com/p/DS5e4LUEze_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    username: "iamdanidanial",
+    avatar: "/assets/profile.jpg"
   },
   {
     id: "3",
-    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
-    caption: "Flying high in Bali swing! 🌺",
-    link: "https://www.instagram.com/",
-    username: "mata.baldriver",
-    avatar: "https://i.pravatar.cc/150?img=45"
-  }
+    image: "/assets/coverblue.png",
+    caption: "Produk ONDA teridentifikasi di sejumlah Stasiun KRL Jalur Biru. Temuan ini memperlihatkan distribusi ONDA yang merata di jalur dengan volume penumpang padat.",
+    link: "https://www.instagram.com/p/DS5ewY6Eyje/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    username: "iamdanidanial",
+    avatar: "/assets/profile.jpg"
+  },
+  {
+    id: "2",
+    image: "/assets/coverred.png",
+    caption: "Produk ONDA ditemukan di area Stasiun KRL Jalur Merah. Dokumentasi diambil langsung di lokasi stasiun, menunjukkan bahwa ONDA hadir dan digunakan di ruang publik dengan aktivitas tinggi.",
+    link: "https://www.instagram.com/p/DS5eUrnE2nj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    username: "iamdanidanial",
+    avatar: "/assets/profile.jpg"
+  },
+  {
+    id: "1",
+    image: "/assets/covergreen.png",
+    caption: "Penelusuran di Stasiun KRL Jalur Hijau menunjukkan sebagian besar titik sudah terdapat produk ONDA. Kehadiran ONDA terlihat konsisten di area fasilitas umum stasiun.",
+    link: "https://www.instagram.com/p/DS5cuiYEwl4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    username: "iamdanidanial",
+    avatar: "/assets/profile.jpg"
+  },
 ];
 
-
 export default function InstagramSection() {
-  
   return (
     <section id="instagram" className="py-20 bg-white dark:bg-slate-900">
       <div className="container mx-auto px-6">
 
         {/* SECTION TITLE */}
         <div className="text-center mb-16">
-          <span className="px-4 py-1 text-sm rounded-full bg-orange-100 text-orange-600">
-            Mengapa Memilih Kami
+          <span className="px-4 py-1 text-sm rounded-full bg-blue-100 text-blue-600">
+            Finding ONDA
           </span>
 
           <h2 className="text-4xl font-bold mt-4 leading-tight">
-            <span className="text-orange-600">Pengalaman</span>
-            <span className="ml-2">Bepergian Seperti Belum Pernah</span>
-            <br />
-            <span>Sebelumnya</span>
+            Pencarian ONDA di
+            <span className="text-blue-600 ml-2">Stasiun KRL</span>
           </h2>
 
           <p className="mt-6 text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Di Mata Bali Private Driver, kami lebih dari sekadar layanan transportasi —
-            kami adalah penghubung Anda ke jantung dan jiwa Bali.
+            Dokumentasi pencarian produk ONDA yang dilakukan langsung
+            di berbagai stasiun Commuter Line sebagai bentuk observasi nyata
+            di ruang publik.
           </p>
         </div>
 
-        {/* 3 INFO BOX */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
-
-          <div className="p-6 rounded-2xl shadow-md bg-white dark:bg-slate-800 border border-orange-200">
-            <h3 className="font-semibold text-xl text-orange-700 mb-3">Andal & Ramah</h3>
-            <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-              Tepat waktu, profesional, dan selalu tersenyum — kami memperlakukan
-              setiap tamu seperti keluarga.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl shadow-md bg-white dark:bg-slate-800 border border-orange-200">
-            <h3 className="font-semibold text-xl text-orange-700 mb-3">
-              Pengalaman Yang Tak Terlupakan
-            </h3>
-            <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-              Baik itu pertama kali Anda di Bali atau kesekian kalinya, kami
-              berupaya keras untuk memastikan pengalaman Anda unik, personal,
-              dan benar-benar tak terlupakan.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl shadow-md bg-white dark:bg-slate-800 border border-orange-200">
-            <h3 className="font-semibold text-xl text-orange-700 mb-3">Wawasan Lokal</h3>
-            <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-              Pengemudi kami lahir dan besar di Bali — kami tahu tempat terbaik
-              untuk makan, berkunjung, dan tempat-tempat unik yang tidak akan Anda
-              temukan di buku panduan.
-            </p>
-          </div>
-        </div>
-
-       <section className="bg-white dark:bg-slate-900">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-
-        {instagramPosts.map((post, index) => (
-          <motion.a
-            key={post.id}
-            href={post.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.1, duration: 0.5 }}
-            className="rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 
+        {/* INSTAGRAM GRID */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {instagramPosts.map((post, index) => (
+            <motion.a
+              key={post.id}
+              href={post.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.08, duration: 0.45 }}
+              className="rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 
               shadow-md hover:shadow-xl hover:-translate-y-1 transition-all bg-white dark:bg-slate-800"
-          >
+            >
 
-            {/* TOP BAR */}
-            <div className="flex items-center gap-3 p-4">
-              <img
-                src={post.avatar}
-                alt={post.username}
-                className="w-10 h-10 rounded-full object-cover"
-              />
-              <span className="font-semibold text-slate-800 dark:text-slate-200 text-sm">
-                {post.username}
-              </span>
-            </div>
-
-            {/* IMAGE */}
-            <img
-              src={post.image}
-              className="w-full h-80 object-cover"
-              alt={post.caption}
-            />
-
-            {/* ACTION ICONS */}
-            <div className="flex items-center justify-between px-4 py-3">
-              <div className="flex gap-4">
-                <Heart className="w-6 h-6 text-slate-700 dark:text-slate-200" />
-                <MessageCircle className="w-6 h-6 text-slate-700 dark:text-slate-200" />
-                <Send className="w-6 h-6 text-slate-700 dark:text-slate-200" />
+              {/* TOP BAR */}
+              <div className="flex items-center gap-3 p-4">
+                <img
+                  src={post.avatar}
+                  alt={post.username}
+                  className="w-10 h-10 rounded-full object-cover"
+                />
+                <span className="font-semibold text-slate-800 dark:text-slate-200 text-sm">
+                  {post.username}
+                </span>
               </div>
-              <Bookmark className="w-6 h-6 text-slate-700 dark:text-slate-200" />
+
+            <div className="aspect-[4/5] w-full overflow-hidden bg-slate-100 dark:bg-slate-700">
+              <img
+                src={post.image}
+                alt={post.caption}
+                className="w-full h-full object-cover"
+              />
             </div>
 
-            {/* CAPTION */}
-            <div className="px-4 pb-4">
-              <p className="text-sm">
-                <span className="font-semibold">{post.username}</span>{" "}
-                <span className="text-slate-700 dark:text-slate-300">{post.caption}</span>
-              </p>
-            </div>
 
-          </motion.a>
-        ))}
+              {/* ACTION ICONS */}
+              <div className="flex items-center justify-between px-4 py-3">
+                <div className="flex gap-4">
+                  <Heart className="w-5 h-5" />
+                  <MessageCircle className="w-5 h-5" />
+                  <Send className="w-5 h-5" />
+                </div>
+                <Bookmark className="w-5 h-5" />
+              </div>
 
-      </div>
-    </section>
+              {/* CAPTION */}
+              <div className="px-4 pb-4">
+                <p className="text-sm text-slate-700 dark:text-slate-300">
+                  <span className="font-semibold mr-1">{post.username}</span>
+                  {post.caption}
+                </p>
+              </div>
+
+            </motion.a>
+          ))}
+        </div>
       </div>
     </section>
   );

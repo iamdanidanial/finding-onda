@@ -14,6 +14,7 @@ import { useEffect, useState } from 'react';
 import InstagramSection from './components/sections/Pricing';
 import MaintenanceInfo from './components/sections/MaintenanceInfo';
 import Gallery from './components/sections/Gallery';
+import StoryGridFindingOnda from './components/sections/Faq';
 
 function App() {
   useSmoothScroll();
@@ -45,6 +46,7 @@ function App() {
         <InstagramSection />
         {/* <FAQ />
         <Contact /> */}
+        {/* <StoryGridFindingOnda /> */}
       </main>
       <Footer />
     </div>

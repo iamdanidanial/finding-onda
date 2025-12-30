@@ -6942,5 +6942,122 @@ export const galleryData = [
         "focal_length_35mm": 26
       }
     }
+  },
+   {
+    "id": 185,
+    "gallery": {
+      "title": "Mercure Hotel Cikini (1)",
+      "photo": "/assets/20251229_164045.jpg"
+    },
+    "location": {
+      "latitude": -6.194352,
+      "longitude": 106.8386512,
+      "desa": "Cikini",
+      "kecamatan": "Menteng",
+      "kabupaten": "Kota Administrasi Jakarta Pusat",
+      "provinsi": "DKI Jakarta",
+      "negara": "Indonesia",
+      "kode_pos": "10330",
+      "place": {
+        "type": "Hotel",
+        "name": "Mercure Hotel Cikini"
+      },
+      "full_address": "Jalan Cikini Raya NO 66",
+      "maps": {
+        "openstreetmap": "https://www.openstreetmap.org/?mlat=-6.194352&mlon=106.8386512",
+        "google": "https://www.google.com/maps/search/?api=1&query=-6.194352,106.8386512"
+      }
+    },
+    "exif": {
+      "device": {
+        "brand": "samsung",
+        "model": "Galaxy A16"
+      },
+      "taken_at": "2025-12-29T09:40:45.000Z",
+      "camera": {
+        "iso": 500,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/25",
+        "focal_length_35mm": 26
+      }
+    }
+  },
+  {
+    "id": 186,
+    "gallery": {
+      "title": "Mercure Hotel Cikini (2)",
+      "photo": "/assets/20251229_164057.jpg"
+    },
+    "location": {
+      "latitude": -6.1944971,
+      "longitude": 106.83869639999999,
+      "desa": "Cikini",
+      "kecamatan": "Menteng",
+      "kabupaten": "Kota Administrasi Jakarta Pusat",
+      "provinsi": "DKI Jakarta",
+      "negara": "Indonesia",
+      "kode_pos": "10330",
+      "place": {
+        "type": "Hotel",
+        "name": "Mercure Hotel Cikini"
+      },
+      "full_address": "Jalan Cikini Raya NO 66",
+      "maps": {
+        "openstreetmap": "https://www.openstreetmap.org/?mlat=-6.1944971&mlon=106.83869639999999",
+        "google": "https://www.google.com/maps/search/?api=1&query=-6.1944971,106.83869639999999"
+      }
+    },
+    "exif": {
+      "device": {
+        "brand": "samsung",
+        "model": "Galaxy A16"
+      },
+      "taken_at": "2025-12-29T09:40:57.000Z",
+      "camera": {
+        "iso": 640,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/20",
+        "focal_length_35mm": 26
+      }
+    }
+  },
+  {
+    "id": 187,
+    "gallery": {
+      "title": "Mercure Hotel Cikini (3)",
+      "photo": "/assets/20251229_164103.jpg"
+    },
+    "location": {
+      "latitude": -6.194371099722223,
+      "longitude": 106.83869239972222,
+      "desa": "Menteng",
+      "kecamatan": "Menteng",
+      "kabupaten": "Kota Administrasi Jakarta Pusat",
+      "provinsi": "DKI Jakarta",
+      "negara": "Indonesia",
+      "kode_pos": "10330",
+      "place": {
+        "type": "Hotel",
+        "name": "Mercure Hotel Cikini"
+      },
+      "full_address": "Jalan Cikini Raya NO 66",
+      "maps": {
+        "openstreetmap": "https://www.openstreetmap.org/?mlat=-6.194371099722223&mlon=106.83869239972222",
+        "google": "https://www.google.com/maps/search/?api=1&query=-6.194371099722223,106.83869239972222"
+      }
+    },
+    "exif": {
+      "device": {
+        "brand": "samsung",
+        "model": "Galaxy A16"
+      },
+      "taken_at": "2025-12-29T09:41:03.000Z",
+      "camera": {
+        "iso": 800,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/20",
+        "focal_length_35mm": 26
+      }
+    }
   }
 ]
