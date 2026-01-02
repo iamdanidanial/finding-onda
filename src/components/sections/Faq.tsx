@@ -9,145 +9,78 @@ type Story = {
   location: string;
   image: string;
   excerpt: string;
-  content: string[];
+  content: string;
 };
 
 const stories: Story[] = [
   {
-  id: 1,
-  title: "Finding ONDA: Awal yang Tidak Direncanakan",
-  date: "6 Desember 2025",
-  location: "Ciherang, Cianjur – Bogor",
-  image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  excerpt:
-    "Semua perjalanan besar sering kali dimulai dari hal yang paling sederhana.",
-  content: [
-    "Hari itu saya tidak sedang mencari apa pun.",
-    "Saya hanya berkunjung ke rumah teman di sebuah villa di Ciherang, Cianjur.",
-    "Tanpa disengaja, perhatian saya tertuju pada tiga produk ONDA yang ada di rumah tersebut.",
-    "Awalnya terasa biasa, namun ada rasa penasaran yang tertinggal.",
-    "Dalam perjalanan pulang, saya singgah di SPBU Pertamina 34.16108 Bogor.",
-    "Di tempat itulah satu produk ONDA kembali saya temukan.",
-    "Dua peristiwa kecil di hari yang sama menjadi titik awal dari sebuah perjalanan panjang.",
-    "Saya belum tahu saat itu, bahwa rasa penasaran ini akan membawa saya melintasi banyak ruang dan waktu."
-  ]
-},
- {
-  id: 2,
-  title: "Finding ONDA: Menyusuri Red Line dari Istiqlal ke Citayam",
-  date: "7 Desember 2025",
-  location: "Jakarta – Citayam",
-  image: "https://images.pexels.com/photos/1178448/pexels-photo-1178448.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  excerpt:
-    "Pencarian ini dimulai ketika saya memutuskan untuk lebih sadar terhadap sekitar.",
-  content: [
-    "Tanggal 7 Desember 2025, saya memutuskan bahwa pencarian ini tidak lagi sekadar kebetulan.",
-    "Perjalanan dimulai dari Masjid Istiqlal, tempat saya menemukan satu produk ONDA.",
-    "Dari sana, saya menuju Stasiun Juanda, titik awal jalur Red Line.",
-    "Pukul 14.00, perjalanan menyusuri stasiun demi stasiun dimulai.",
-    "Juanda, Gondangdia, Cikini, Manggarai, Tebet, Cawang, hingga Pasar Minggu.",
-    "Kereta membawa saya melewati Lenteng Agung, Universitas Indonesia, Depok, hingga Citayam.",
-    "Setiap stasiun terasa seperti bab kecil dalam satu cerita besar.",
-    "ONDA hadir di ruang-ruang publik yang selama ini hanya saya lewati tanpa perhatian.",
-    "Hari itu saya belajar bahwa melihat dengan sadar bisa mengubah cara memaknai perjalanan."
-  ]
-},
+    id: 1,
+    title: "Awal yang Tidak Direncanakan",
+    date: "6 Desember 2025",
+    location: "Ciherang, Cianjur – Bogor",
+    image: "/assets/banner3.png",
+    excerpt:
+      "Semua perjalanan besar sering kali dimulai dari hal yang paling sederhana.",
+    content:
+      "Hari itu saya tidak sedang merencanakan pencarian apa pun. Saya hanya berkunjung ke rumah seorang teman di sebuah villa yang terletak di kawasan Ciherang, Cianjur. Suasananya tenang, jauh dari hiruk pikuk kota, dan awalnya tidak ada hal yang terasa istimewa. Namun tanpa disengaja, perhatian saya tertuju pada keberadaan tiga produk ONDA yang ada di rumah tersebut. Awalnya terasa biasa saja, tetapi entah mengapa ada rasa penasaran yang tertinggal. Dalam perjalanan pulang menuju Bogor, saya singgah di SPBU Pertamina 34.16108. Di tempat itulah saya kembali menemukan satu produk ONDA. Dua peristiwa kecil yang terjadi di hari yang sama itu perlahan membentuk satu kesadaran baru. Saya belum menyadarinya saat itu, tetapi hari tersebut menjadi titik awal dari sebuah perjalanan panjang yang akan membawa saya melintasi banyak ruang, waktu, dan pemaknaan."
+  },
   {
-  id: 3,
-  title: "Finding ONDA: Menutup Red Line di Tengah Tugas",
-  date: "8 Desember 2025",
-  location: "Bogor – Jakarta Kota",
-  image: "https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  excerpt:
-    "Kadang pencarian terbaik justru terjadi di sela-sela kewajiban.",
-  content: [
-    "Keesokan harinya, perjalanan berlanjut bersamaan dengan tugas kantor ke Bogor.",
-    "Pukul 17.12 saya memulai perjalanan dari Stasiun Bogor.",
-    "Kereta membawa saya ke Cilebut dan Bojong Gede.",
-    "Perjalanan kemudian berlanjut menuju Sawah Besar, Mangga Besar, Jayakarta, hingga Jakarta Kota.",
-    "Di titik ini, saya menyadari bahwa jalur Red Line telah saya susuri sepenuhnya.",
-    "Pukul 20.00, pencarian di Red Line resmi selesai.",
-    "Bukan rasa puas yang muncul, melainkan dorongan untuk melanjutkan.",
-    "Saya mulai memahami bahwa perjalanan ini bukan tentang garis di peta, tetapi tentang prosesnya."
-  ]
-},
-{
-  id: 4,
-  title: "Finding ONDA: Blue Line, Brown Line, dan Malam yang Panjang",
-  date: "13 Desember 2025",
-  location: "Jakarta – Tangerang – Cikarang",
-  image: "https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  excerpt:
-    "Tidak semua perjalanan berjalan lurus, beberapa harus berhenti lalu dilanjutkan.",
-  content: [
-    "Sejak pagi hari, saya memulai pencarian di jalur Blue Line.",
-    "Kemayoran, Rajawali, Kampung Bandan, Angke, dan Duri menjadi pembuka hari itu.",
-    "Perjalanan berlanjut ke Brown Line Tangerang, dari Grogol hingga Tangerang.",
-    "Pukul 14.00 saya harus berhenti karena meeting kantor.",
-    "Namun setelah meeting selesai, keinginan untuk melanjutkan kembali muncul.",
-    "Malam itu saya kembali menyusuri Blue Line dari Gang Sentiong hingga Cikarang.",
-    "Saya tiba di kost pukul 23.45 dengan tubuh lelah dan pikiran penuh.",
-    "Hari itu mengajarkan bahwa konsistensi sering kali diuji oleh kelelahan."
-  ]
-},
-{
-  id: 5,
-  title: "Finding ONDA: Jalur Panjang Green Line",
-  date: "14 Desember 2025",
-  location: "Tanah Abang – Rangkasbitung",
-  image: "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  excerpt:
-    "Perjalanan panjang memberi ruang untuk refleksi yang lebih dalam.",
-  content: [
-    "Pukul 6 pagi saya sudah berangkat dari kost.",
-    "Green Line membawa saya dari Tanah Abang menuju Rangkasbitung.",
-    "Stasiun demi stasiun dilewati: Palmerah, Kebayoran, Serpong, hingga Rangkasbitung.",
-    "Setelah itu, saya menyelesaikan sisa Blue Line yang belum tersentuh.",
-    "Karet, Sudirman, hingga Pasar Senen menjadi penutup hari.",
-    "Perjalanan berakhir sekitar pukul 19.00.",
-    "Hari itu terasa panjang, namun penuh makna.",
-    "Saya mulai melihat ONDA sebagai bagian dari ritme kehidupan sehari-hari."
-  ]
-},
-{
+    id: 2,
+    title: "Menyusuri Red Line dari Istiqlal ke Citayam",
+    date: "7 Desember 2025",
+    location: "Jakarta – Citayam",
+    image: "/assets/banner1.png",
+    excerpt:
+      "Pencarian ini dimulai ketika saya memutuskan untuk lebih sadar terhadap sekitar.",
+    content:
+      "Pada tanggal 7 Desember 2025, saya memutuskan bahwa apa yang terjadi sehari sebelumnya bukan lagi sekadar kebetulan. Perjalanan dimulai dari Masjid Istiqlal, tempat saya kembali menemukan satu produk ONDA. Dari sana, saya berjalan menuju Stasiun Juanda, titik awal penyusuran jalur Red Line. Tepat pukul 14.00, perjalanan dimulai, membawa saya melewati stasiun demi stasiun: Juanda, Gondangdia, Cikini, Manggarai, Tebet, Cawang, hingga Pasar Minggu. Kereta terus melaju melewati Lenteng Agung, Universitas Indonesia, Depok, hingga akhirnya tiba di Citayam. Setiap stasiun terasa seperti satu bab kecil dalam cerita besar yang sedang terbentuk. Saya mulai menyadari bahwa ONDA hadir di ruang-ruang publik yang selama ini hanya saya lewati tanpa benar-benar saya perhatikan. Hari itu mengajarkan bahwa ketika kita melihat dengan lebih sadar, perjalanan yang biasa pun bisa berubah menjadi pengalaman yang bermakna."
+  },
+  {
+    id: 3,
+    title: "Menutup Red Line di Tengah Tugas",
+    date: "8 Desember 2025",
+    location: "Bogor – Jakarta Kota",
+    image: "/assets/banner2.png",
+    excerpt:
+      "Kadang pencarian terbaik justru terjadi di sela-sela kewajiban yang kita lakukan.",
+    content:
+      "Keesokan harinya, perjalanan berlanjut bersamaan dengan tugas kantor ke Bogor. Tanpa mengubah rutinitas utama, saya tetap membawa kesadaran baru yang mulai terbentuk sejak hari sebelumnya. Pukul 17.12, saya memulai perjalanan dari Stasiun Bogor. Kereta membawa saya menuju Cilebut dan Bojong Gede, sebelum akhirnya masuk ke kawasan Jakarta. Perjalanan berlanjut hingga Sawah Besar, Mangga Besar, Jayakarta, dan berakhir di Stasiun Jakarta Kota. Di titik inilah saya menyadari bahwa jalur Red Line telah saya susuri sepenuhnya. Tepat pukul 20.00, pencarian di jalur ini resmi selesai. Yang muncul bukanlah rasa puas, melainkan dorongan untuk melanjutkan. Saya mulai memahami bahwa perjalanan ini tidak lagi tentang garis di peta, melainkan tentang proses dan kesadaran yang tumbuh di sepanjang jalan."
+  },
+  {
+    id: 4,
+    title: "Blue Line, Brown Line, dan Malam yang Panjang",
+    date: "13 Desember 2025",
+    location: "Jakarta – Tangerang – Cikarang",
+    image: "/assets/banner4.png",
+    excerpt:
+      "Tidak semua perjalanan berjalan lurus, beberapa harus berhenti lalu dilanjutkan.",
+    content:
+      "Sejak pagi hari, saya memulai pencarian di jalur Blue Line dengan semangat yang masih penuh. Stasiun Kemayoran, Rajawali, Kampung Bandan, Angke, dan Duri menjadi pembuka hari itu. Perjalanan kemudian berlanjut ke jalur Brown Line menuju Tangerang, dimulai dari Grogol hingga stasiun akhir. Namun sekitar pukul 14.00, perjalanan harus terhenti karena kewajiban pekerjaan berupa meeting kantor. Setelah semua selesai, keinginan untuk melanjutkan kembali muncul. Malam itu saya kembali menyusuri Blue Line dari Gang Sentiong hingga Cikarang. Saya tiba di kost pukul 23.45 dengan tubuh yang lelah, tetapi pikiran terasa penuh. Hari itu mengajarkan bahwa konsistensi sering kali diuji oleh kelelahan, dan melanjutkan perjalanan adalah pilihan yang lahir dari komitmen, bukan sekadar energi."
+  },
+  {
+    id: 5,
+    title: "Jalur Panjang Green Line",
+    date: "14 Desember 2025",
+    location: "Tanah Abang – Rangkasbitung",
+    image: "/assets/banner5.png",
+    excerpt:
+      "Perjalanan panjang memberi ruang untuk refleksi yang lebih dalam.",
+    content:
+      "Pukul enam pagi saya sudah berangkat dari kost, membawa niat untuk menyusuri jalur yang lebih panjang. Green Line membawa saya dari Tanah Abang menuju Rangkasbitung, melewati stasiun demi stasiun seperti Palmerah, Kebayoran, Serpong, hingga akhirnya tiba di tujuan. Perjalanan ini memberi banyak ruang untuk berpikir dan merenung. Setelah itu, saya menyelesaikan sisa jalur Blue Line yang belum tersentuh, melewati Karet, Sudirman, hingga Pasar Senen sebagai penutup hari. Perjalanan berakhir sekitar pukul 19.00. Hari itu terasa panjang, melelahkan, namun penuh makna. Saya mulai melihat ONDA bukan lagi sebagai objek pencarian, melainkan sebagai bagian dari ritme kehidupan sehari-hari yang terus berjalan."
+  },
+ {
   id: 6,
-  title: "Finding ONDA: Hadir di Tugas dan Kampung Halaman",
-  date: "18–26 Desember 2025",
-  location: "Bogor – Bandung – Cianjur",
-  image: "https://images.pexels.com/photos/4240505/pexels-photo-4240505.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  title: "Pink Line — dan onda Hadir di Mana Saja",
+  date: "18-29 Desember 2025",
+  location: "Bogor - Bandung - Cianjur - Jakarta",
+  image: "/assets/banner6.png",
   excerpt:
-    "ONDA hadir tanpa memilih tempat, sama seperti kehidupan.",
-  content: [
-    "Dalam perjalanan tugas ke KPPN Bogor, saya menemukan tiga produk ONDA.",
-    "Di Bandung, tepatnya di lingkungan Gedung Keuangan Negara, tujuh produk ONDA kembali saya temukan.",
-    "Dalam perjalanan pulang, saya singgah di SPBU Padalarang dan menemukan satu produk ONDA.",
-    "Saat mudik ke Cianjur, ONDA kembali hadir di SPBU Karangtengah.",
-    "Bahkan di masjid kampung halaman, tiga produk ONDA ditemukan.",
-    "Saya menyadari bahwa ONDA tidak eksklusif pada ruang tertentu.",
-    "Ia hadir di kota, di desa, di tempat kerja, dan di rumah.",
-    "Keberadaannya terasa tenang namun konsisten."
-  ]
-},
-{
-  id: 7,
-  title: "Finding ONDA: Tentang Hadir Tanpa Menuntut",
-  date: "29 Desember 2025",
-  location: "Jakarta",
-  image: "https://images.pexels.com/photos/7363195/pexels-photo-7363195.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  excerpt:
-    "Ini bukan tentang merek, tapi tentang keberadaan.",
-  content: [
-    "Malam itu saya menginap di Hotel Mercure Cikini.",
-    "Di masjid hotel tersebut, saya kembali menemukan produk ONDA.",
-    "Perjalanan ini akhirnya membuat saya berhenti menghitung jumlah.",
-    "Yang tersisa adalah kesadaran tentang kehadiran.",
-    "ONDA bekerja tanpa menuntut perhatian.",
-    "Ia menjalankan fungsi dengan setia di balik layar.",
-    "Finding ONDA bukan lagi tentang pencarian fisik.",
-    "Ia menjadi cara baru untuk melihat dunia dengan lebih sadar."
-  ]
+    "Bukan jalur di peta, tapi perjalanan yang menyatukan tugas, rumah, dan kesadaran.",
+  content:
+    "Perjalanan di fase ini tidak lagi terikat pada satu jalur KRL tertentu, melainkan mengikuti alur kehidupan itu sendiri. Dalam rangkaian tugas ke KPPN Bogor, saya kembali menemukan tiga produk ONDA yang hadir tanpa pernah saya rencanakan. Di Bandung, tepatnya di lingkungan Gedung Keuangan Negara, tujuh produk ONDA muncul dalam keseharian kerja yang berjalan seperti biasa. Dalam perjalanan pulang, saya singgah di SPBU Padalarang dan menemukan satu produk ONDA lainnya, seolah menjadi penghubung antara kota dan perjalanan. Saat mudik ke Cianjur, ONDA kembali hadir di SPBU Karangtengah, bahkan hingga ke masjid di kampung halaman tempat saya menemukan tiga produk lainnya. Perjalanan ini kemudian berlanjut hingga Jakarta, ketika saya menginap di Hotel Mercure Cikini. Di masjid hotel tersebut, saya kembali menemukan ONDA, dan di titik itulah saya berhenti menghitung jumlah temuan. Yang tersisa hanyalah kesadaran tentang kehadiran. ONDA tidak memilih tempat, tidak menuntut perhatian, dan tidak pernah berusaha terlihat. Ia bekerja dengan tenang, konsisten, dan setia menjalankan fungsinya di balik layar. Di fase ini, Finding ONDA tidak lagi tentang pencarian fisik atau dokumentasi semata, melainkan tentang cara baru memandang dunia — lebih pelan, lebih sadar, dan lebih menghargai hal-hal kecil yang selama ini hadir tanpa pernah diminta."
 }
 ];
+
 
 export default function StoryGridFindingOnda() {
   const [activeStory, setActiveStory] = useState<Story | null>(null);
@@ -252,9 +185,7 @@ export default function StoryGridFindingOnda() {
                 </h3>
 
                 <div className="space-y-4 text-slate-700 leading-relaxed">
-                  {activeStory.content.map((p, i) => (
-                    <p key={i}>{p}</p>
-                  ))}
+                  {activeStory.content}
                 </div>
               </div>
             </motion.div>

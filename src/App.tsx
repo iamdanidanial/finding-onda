@@ -46,7 +46,7 @@ function App() {
         <InstagramSection />
         {/* <FAQ />
         <Contact /> */}
-        {/* <StoryGridFindingOnda /> */}
+        <StoryGridFindingOnda />
       </main>
       <Footer />
     </div>
