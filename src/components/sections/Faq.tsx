@@ -86,7 +86,7 @@ export default function StoryGridFindingOnda() {
   const [activeStory, setActiveStory] = useState<Story | null>(null);
 
   return (
-    <section className="py-20 bg-slate-50">
+    <section id='story' className="py-20 bg-slate-50">
       <div className="container mx-auto">
 
         {/* HEADER */}
